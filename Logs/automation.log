@@ -1,26 +1,50 @@
-2025-09-09 18:06:11 - INFO -******Click on the Dashboard menu****
-2025-09-09 18:06:12 - INFO -******Verify the mumin dashboard heading****
-2025-09-09 18:06:20 - INFO -********Verify the all widgets count with the data base count for the total niyat, active, pending, completed**********
-2025-09-10 09:57:37 - INFO -******Click on the Dashboard menu****
-2025-09-10 09:57:38 - INFO -******Verify the mumin dashboard heading****
-2025-09-10 09:57:46 - INFO -********Verify the all widgets count with the data base count for the total niyat, active, pending, completed**********
-2025-09-10 10:00:37 - INFO -******Click on the Dashboard menu****
-2025-09-10 10:00:38 - INFO -******Verify the mumin dashboard heading****
-2025-09-10 10:00:46 - INFO -********Verify the all widgets count with the data base count for the total niyat, active, pending, completed**********
-2025-09-10 10:02:08 - INFO -******Click on the Dashboard menu****
-2025-09-10 10:02:09 - INFO -******Verify the mumin dashboard heading****
-2025-09-10 10:02:18 - INFO -********Verify the all widgets count with the data base count for the total niyat, active, pending, completed**********
-2025-09-10 10:11:29 - INFO -******Click on the Dashboard menu****
-2025-09-10 10:11:30 - INFO -******Verify the mumin dashboard heading****
-2025-09-10 10:11:38 - INFO -********Verify the all widgets count with the data base count for the total niyat, active, pending, completed**********
-2025-09-10 10:20:16 - INFO -******Click on the Dashboard menu****
-2025-09-10 10:20:17 - INFO -******Verify the mumin dashboard heading****
-2025-09-10 10:20:26 - INFO -********Verify the all widgets count with the data base count for the total niyat, active, pending, completed**********
-2025-09-10 10:23:41 - INFO -******Click on the Dashboard menu****
-2025-09-10 10:23:42 - INFO -******Verify the mumin dashboard heading****
-2025-09-10 10:27:27 - INFO -******Click on the Dashboard menu****
-2025-09-10 10:27:28 - INFO -******Verify the mumin dashboard heading****
-2025-09-10 10:27:36 - INFO -********Verify the all widgets count with the data base count for the total niyat, active, pending, completed**********
-2025-09-10 10:29:09 - INFO -******Click on the Dashboard menu****
-2025-09-10 10:29:10 - INFO -******Verify the mumin dashboard heading****
-2025-09-10 10:29:18 - INFO -********Verify the all widgets count with the data base count for the total niyat, active, pending, completed**********
+2025-09-10 16:27:56 - INFO -******Click on the Dashboard menu****
+2025-09-10 16:27:58 - INFO -******Verify the mumin dashboard heading****
+2025-09-10 16:28:06 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-09-10 16:28:09 - INFO -*******Duration dropdown opened successfully and select 1 month filter successfully**********
+2025-09-10 16:28:13 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-09-10 16:28:16 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-09-10 16:28:19 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-09-10 16:39:08 - INFO -******Click on the Dashboard menu****
+2025-09-10 16:39:09 - INFO -******Verify the mumin dashboard heading****
+2025-09-10 16:39:17 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-09-10 16:39:20 - INFO -*******Duration dropdown opened successfully and select 1 month filter successfully**********
+2025-09-10 16:39:23 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-09-10 16:39:27 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-09-10 16:39:30 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-09-10 16:42:30 - INFO -******Click on the Dashboard menu****
+2025-09-10 16:42:31 - INFO -******Verify the mumin dashboard heading****
+2025-09-10 16:42:39 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-09-10 16:42:42 - INFO -*******Duration dropdown opened successfully and select 1 month filter successfully**********
+2025-09-10 16:42:45 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-09-10 16:42:49 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-09-10 16:42:52 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-09-10 16:50:03 - INFO -******Click on the Dashboard menu****
+2025-09-10 16:50:04 - INFO -******Verify the mumin dashboard heading****
+2025-09-10 16:50:13 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-09-10 16:50:16 - INFO -*******Duration dropdown opened successfully and select 1 month filter successfully**********
+2025-09-10 16:50:19 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-09-10 16:50:23 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-09-10 16:50:31 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-09-10 17:19:03 - INFO -******Click on the Dashboard menu****
+2025-09-10 17:19:05 - INFO -******Verify the mumin dashboard heading****
+2025-09-10 17:19:13 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-09-10 17:19:16 - INFO -*******Duration dropdown opened successfully and select 1 month filter successfully**********
+2025-09-10 17:19:19 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-09-10 17:19:23 - INFO -*******Duration dropdown opened successfully and select 3 months filter successfully**********
+2025-09-10 17:19:26 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-09-10 17:19:35 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-09-10 17:19:38 - INFO -*******Duration dropdown opened successfully and select 1 year filter successfully**********
+2025-09-10 17:19:43 - INFO -*****Verify all widget count for 1 year filter successfully.******
+2025-09-10 17:23:08 - INFO -******Click on the Dashboard menu****
+2025-09-10 17:23:09 - INFO -******Verify the mumin dashboard heading****
+2025-09-10 17:23:18 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-09-10 17:23:21 - INFO -*******Duration dropdown opened successfully and select 1 month filter successfully**********
+2025-09-10 17:23:24 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-09-10 17:23:27 - INFO -*******Duration dropdown opened successfully and select 3 months filter successfully**********
+2025-09-10 17:23:31 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-09-10 17:23:34 - INFO -*******Duration dropdown opened successfully and select 6 months filter successfully**********
+2025-09-10 17:23:42 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-09-10 17:23:45 - INFO -*******Duration dropdown opened successfully and select 1 year filter successfully**********
+2025-09-10 17:23:51 - INFO -*****Verify all widget count for 1 year filter successfully.******
+2025-09-10 17:35:02 - INFO -******Click on the Dashboard menu****

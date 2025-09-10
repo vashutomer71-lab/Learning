@@ -1,3 +1,0 @@
-Verifying mumin Dashboard Heading...
-Expected: 'Mumin Dashboard'
-Actual: 'Mumin Dashboard'

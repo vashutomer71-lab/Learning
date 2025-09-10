@@ -4,13 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4173cbb6-8987-4358-beaa-837c3cac1d62" name="Changes" comment="" />
+    <list default="true" id="4173cbb6-8987-4358-beaa-837c3cac1d62" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/queries.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/queries.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Cases/test_mumin_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Cases/test_mumin_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/038b47d6-4024-4d07-b2ec-05f76ddcc656-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/0d7361e7-58b2-446c-9f7f-21a489198543-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/58196d1c-a1e1-4acb-a1a2-d0925b94b694-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/65646d03-c62c-4234-bdb0-3bf157f1c452-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/67d08cb1-a545-4b3e-b66d-4004af67ce3f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/68b840fd-4bb7-493d-929e-cad1e487996c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/6d0924f0-34ec-4a61-bc08-a075077e4f7c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/70ca20b3-e044-4877-afcc-ac60c89c54ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/91debaab-0f89-48b0-a7b6-5ee3a39cc03c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/97edbab8-1e37-4d20-8138-19acc485939e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/99955836-0ab2-4a37-8cbe-d0cae24e803e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/b5110e9e-b95b-415c-95cc-a6adbcf7472c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/b80537e5-41fb-4219-a406-d5f5b87daa30-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/b9c0e6d7-c350-4190-95f7-c0e8162be7ef-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/cbf831bc-763d-46bb-bef8-17d78ade507e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/cf3ff6ac-ec26-431b-acab-209290eda5ee-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/db7fbbd5-bdb5-40ca-82f8-65e75e61f7a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/e0f80260-294f-43c6-b6a3-77b0609c19bf-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/e6070b56-5953-4d12-b3c5-53c6907fa95c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/f7675770-178c-4af3-b031-9b60b2d231a9-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageObjects/mumin_dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/mumin_dashboard_page.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -33,7 +65,7 @@
     "Python.conftest.executor": "Run",
     "Python.databaseconnection.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Elaam__Automation"
+    "git-widget-placeholder": "Mumin__dashboard"
   }
 }]]></component>
   <component name="RecentsManager">
