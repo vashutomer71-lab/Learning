@@ -5,6 +5,7 @@ from Utilities.ReadProperties import ReadConfig
 import psycopg2
 from configparser import ConfigParser
 from sshtunnel import SSHTunnelForwarder
+import allure
 
 
 # -------------------- Playwright Fixtures --------------------
@@ -37,7 +38,8 @@ def login(setup):
     lp.setUserName(username)
     lp.setPassword(password)
     lp.login()
-    lp.click_mumin_role()
+    with allure.step(""):
+        lp.click_mumin_role()
     yield page
 
 # @pytest.fixture(scope="function")
