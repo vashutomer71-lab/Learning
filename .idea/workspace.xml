@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4173cbb6-8987-4358-beaa-837c3cac1d62" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FleetAutomation_17-09-2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FleetAutomation_17-09-2024.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration/queries.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/queries.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Cases/Logs/automation.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Cases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Cases/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_Cases/test_mumin_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Cases/test_mumin_dashboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pageObjects/mumin_dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/mumin_dashboard_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright_and_lotus_automation" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,24 +53,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest in test_catalogue.py.executor": "Run",
-    "Python tests.pytest in test_charger_dashboard.py.executor": "Run",
-    "Python tests.pytest in test_mumin_dashboard.py.executor": "Run",
-    "Python.ReadProperties.executor": "Run",
-    "Python.catalogue_page.executor": "Run",
-    "Python.charger_dashboard_page.executor": "Run",
-    "Python.conftest.executor": "Run",
-    "Python.databaseconnection.executor": "Run",
-    "Python.mumin_dashboard_page.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Mumin__dashboard",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest in multiplerole.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_catalogue.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_charger_dashboard.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_mumin_dashboard.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReadProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Python.catalogue_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.charger_dashboard_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.databaseconnection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kitu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mumin_dashboard_page.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Mumin__dashboard&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Backup/ELAAM/Automation/ELAAM_Automation_08-09-2025&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Backup\ELAAM\Automation\ELAAM_Automation_08-09-2025" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Backup\ELAAM\Automation\ELAAM_Automation_08-09-2025" />
+      <recent name="D:\Backup\ELAAM\Automation\ELAAM_Automation_08-09-2025\Utilities" />
+      <recent name="D:\Backup\ELAAM\Automation\ELAAM_Automation_08-09-2025\Configuration" />
       <recent name="D:\Backup\ELAAM\Automation\ELAAM_Automation_08-09-2025\pageObjects" />
     </key>
   </component>

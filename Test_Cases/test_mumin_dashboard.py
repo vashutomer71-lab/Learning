@@ -1,3 +1,4 @@
+import pytest
 from playwright.async_api import expect
 from Test_Cases.conftest import login, setup, db_connection, elaam_prod
 from pageObjects.mumin_dashboard_page import MuminDashboardPage
@@ -8,10 +9,13 @@ expected_path = "/catalogue"
 expected = "Mumin Dashboard"
 expected_text = "Notification Sent Successfully."
 
+@pytest.mark.sanity
+@pytest.mark.regression
 class TestMuminDashboard:
 
     logger = LogGen.loggen()
 
+    @pytest.mark.sanity
     def test_click_mumin_dashboard_menu(self, setup, login):
         self.page = login
         self.m_tile = MuminDashboardPage(self.page)
@@ -19,9 +23,10 @@ class TestMuminDashboard:
             self.m_tile.click_dashboard_menu()
             self.logger.info("******Click on the Dashboard menu****")
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify Mumin Dashboard Heading")
-    @allure.severity(allure.severity_level.CRITICAL)
     def test_dashboard_heading(self, setup, login):
         self.page = login
         self.m_tile = MuminDashboardPage(self.page)
@@ -43,6 +48,7 @@ class TestMuminDashboard:
                 raise e  # Test fail hoga aur Allure me visible hoga
         self.page.wait_for_timeout(1000)
 
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the dashboard tile count with db all filter")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -68,6 +74,8 @@ class TestMuminDashboard:
                 allure.attach.file("Screenshots/widget_count.png", name="Widget count match failed", attachment_type=allure.attachment_type.PNG)
                 raise e
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the dashboard tile count with db for 1 month filter")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -95,6 +103,8 @@ class TestMuminDashboard:
                                    attachment_type=allure.attachment_type.PNG)
                 raise e
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the dashboard tile count with db for 3 months filter")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -121,6 +131,8 @@ class TestMuminDashboard:
                 self.page.screenshot(path="Screenshots/widget_count_for_3_months.png")
                 allure.attach.file("Screenshots/widget_count_for_3_months.png", name="widget count is not match for 3 month", attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the dashboard tile count with db for 6 months filter")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -148,6 +160,8 @@ class TestMuminDashboard:
                 allure.attach.file("Screenshots/widget_count_for_6_months.png", name="widget count is not match for 6 months",
                                    attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the dashboard tile count with db for 1 year filter")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -175,6 +189,7 @@ class TestMuminDashboard:
                     allure.attach.file("Screenshots/widget_count_for_1_year.png", name="widget count is not match for 1 year",
                                        attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
     @allure.feature("Dashboard")
     @allure.story("Verify the total trophy count with db")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -192,6 +207,8 @@ class TestMuminDashboard:
                 allure.attach.file("Screenshots/total_trophy_count.png", name="Total Trophy count is not match with db",
                                    attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the trophies redeemed count with db")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -209,6 +226,8 @@ class TestMuminDashboard:
                 allure.attach.file("Screenshots/trophies_redeemed_count.png", name="total trophies redeemed count are not matched with DB count",
                                    attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the redeemed now and it's navigation")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -227,6 +246,7 @@ class TestMuminDashboard:
                 allure.attach.file("Screenshots/redeem_now_navigation.png", name="Click redeem now button and check the navigation",
                                    attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
     @allure.feature("Dashboard")
     @allure.story("Verify the total niyat count with the total pagination count")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -245,6 +265,8 @@ class TestMuminDashboard:
                 allure.attach.file("Screenshots/total_niyat_pagination.png", name="Total niyat count is not match with total niyat count in pagination",
                                    attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the search is working with FMB and match the total pagination count")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -262,6 +284,8 @@ class TestMuminDashboard:
                 allure.attach.file("Screenshots/search_pagination.png", name="After search data count is not match with pagination count",
                                    attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Verify the niyat information page")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -279,6 +303,8 @@ class TestMuminDashboard:
                 allure.attach.file("Screenshots/niyat_information.png", name="Niyat information question is not matched with the list question",
                                    attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.feature("Dashboard")
     @allure.story("Back button functionality on niyat information page")
     @allure.severity(allure.severity_level.CRITICAL)
@@ -298,6 +324,7 @@ class TestMuminDashboard:
                                    name="back button functionality on Niyat information is not working and screenshot capture",
                                    attachment_type=allure.attachment_type.PNG)
 
+    @pytest.mark.regression
     @allure.title("Dashboard")
     @allure.description("The item per page and pagination and row count matched")
     def test_click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value(self,setup,login):
@@ -312,6 +339,10 @@ class TestMuminDashboard:
             self.page.screenshot(path="Screenshots/item_per_page_pagination_count.png")
     #         allure.attach.file("Screenshots/item_per_page_pagination_count.png", name="item per page and pagination count", attachment_type=allure.attachment_type.PNG)
 
+
+    ##-------IT is not working till now need to complete this because the send messgae page going blank----------####
+    @pytest.mark.regression
+    @pytest.mark.sanity
     @allure.title("Send Message")
     @allure.description("Verify the send message functionality is working")
     def test_send_message_functionality(self,setup,login):
@@ -324,6 +355,51 @@ class TestMuminDashboard:
         except AssertionError as e:
             self.page.screenshot(path="Screenshots/send_message.png")
             allure.attach(success_message, name="Success Message", attachment_type=allure.attachment_type.TEXT)
+
+        ## below test case is in-progress
+    def test_request_for_update(self,setup,login):
+        self.page = login
+        self.req_update = MuminDashboardPage(self.page)
+        self.req_update.request_for_update()
+
+
+    @pytest.mark.regression
+    @pytest.mark.sanity
+    @allure.title("Request For Update Functionality")
+    @allure.description("Verify that after clicking 'Request For Update', either Mubarak with trophy is displayed or request goes to Pending state.")
+    def test_request_for_update(self, setup, login):
+        expect_success_message = "Niyat Details Has Been Update."
+        self.page = login
+        self.request_update = MuminDashboardPage(self.page)
+        # Step 1: Click on button
+        success_message_request_for_update =self.request_update.click_request_for_update()
+        assert success_message_request_for_update == expect_success_message, f"Expected message : {expect_success_message}, but get success message: {success_message_request_for_update}"
+        self.logger.info(f"********Expected message : {expect_success_message}, but get success message: {success_message_request_for_update}*******")
+
+
+
+        # Step 2: Get actual outcome
+        actual_outcome = self.request_update.get_outcome_message()
+        print("Actual out come:", actual_outcome)
+
+        # Step 3: Validate outcomes
+        expected_outcomes = ["MUBARAK", "PENDING"]
+
+        try:
+            expected_outcomes = ["MUBARAK", "PENDING"]
+            assert actual_outcome in expected_outcomes, f"Expected {expected_outcomes}, but got: {actual_outcome}"
+            self.logger.info(f"****** Test Passed with outcome: {actual_outcome} *****")
+        except AssertionError as e:
+            # Screenshot on failure
+            screenshot_path = "Screenshots/request_for_update.png"
+            self.page.screenshot(path=screenshot_path)
+
+            # Attach evidence to Allure report
+            allure.attach.file(screenshot_path, name="Failure Screenshot", attachment_type=allure.attachment_type.PNG)
+            allure.attach(actual_outcome, name="Actual Outcome", attachment_type=allure.attachment_type.TEXT)
+
+            raise e
+
 
 
 

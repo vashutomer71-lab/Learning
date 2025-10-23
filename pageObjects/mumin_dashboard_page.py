@@ -1,3 +1,6 @@
+import time
+
+from Demos.mmapfile_demo import page_size
 from playwright.sync_api import sync_playwright, Page
 from Test_Cases.conftest import db_connection, elaam_prod
 from Utilities.ReadProperties import ReadConfig
@@ -30,16 +33,20 @@ xpath_niyat_question_info_page = "//div[@class='info_txt']"
 xpath_back_button = "//button[normalize-space(text())='Back']"
 
 xpath_approval_pending_widget = "//p[normalize-space()='approval pending']"
-xpath_send_message_button = "//button[normalize-space()='Send Message']"
+xpath_send_message_button = "(//button[normalize-space()='Send Message'])[1]"
 xpath_subject_field  = "//input[@formcontrolname='subject']"
 xpath_message_text_field = "//textarea[@formcontrolname='messageText']"
 xpath_send_button = "//button[normalize-space()='Send']"
 xpath_send_message_success_message = "//div[contains(@class,'toast') or contains(@class,'mat-snack-bar')]"
 
-xpath_item_per_page_drop_down = "//div[@id='mat-select-value-3']"
+xpath_item_per_page_drop_down = "(//div[starts-with(@id,'mat-select-value-')])[2]"
 xpath_options = "//mat-option[@role='option']//span"
 xpath_random_value = "//mat-option[@role='option']//span[normalize-space()="
 xpath_row_count = "//tbody/tr"
+
+xpath_request_for_update = "//button[contains(normalize-space(),'Request For Update')]"
+xpath_mubarak_text = "//button[contains(normalize-space(), 'MUBARAK')]"
+xpath_niyat_info_pending_status = "(//span[contains(normalize-space(),'Pending')])[1]"
 
 # List of adjectives, nouns, verbs to create natural-looking sentences
 adjectives = ["Amazing", "Creative", "Brilliant", "Innovative", "Smart", "Quick", "Elegant"]
@@ -293,6 +300,44 @@ class MuminDashboardPage:
         self.page.locator(xpath_send_button).click()
         success_message= self.page.wait_for_selector(xpath_send_message_success_message).inner_text()
         return success_message
+
+    def click_request_for_update(self):
+        self.page.locator(xpath_Active_Niyat_tile).click()
+        self.page.locator(xpath_view_icon).click()
+        self.page.locator(xpath_request_for_update).click()
+        self.page.wait_for_timeout(200)
+        # Alert message capture (Accessible role = alert, name = "Niyat Details Has Been")
+        # alert_message = self.page.get_by_role("alert", name="Niyat Details Has Been Update.")
+
+        success_message_request_for_update  = self.page.wait_for_selector(xpath_send_message_success_message).inner_text()
+        print("hjfgdhsfgdjf:", success_message_request_for_update)
+        return success_message_request_for_update
+
+    # def get_outcome_message(self):
+    #     try:
+    #         # Outcome 1: Mubarak
+    #         if self.page.locator(xpath_mubarak_text).is_visible(timeout=4000):
+    #             text = self.page.locator(xpath_mubarak_text).inner_text()
+    #             print("✅ Mubarak text is displayed:", text)
+    #             return "MUBARAK"
+    #
+    #         # Outcome 2: Pending
+    #         if self.page.locator(xpath_niyat_info_pending_status).is_visible(timeout=4000):
+    #             pending = self.page.locator(xpath_niyat_info_pending_status).inner_text()
+    #             print("✅ Niyat status is:", pending)
+    #             return "PENDING"
+    #
+    #         # Agar dono nahi mile
+    #         print("❌ Neither Mubarak nor Pending found")
+    #         return "UNKNOWN"
+    #
+    #     except Exception as e:
+    #         print("❌ Error while getting outcome:", e)
+    #         return "ERROR"
+
+
+
+
 
 
 

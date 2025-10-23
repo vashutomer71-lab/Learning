@@ -522,3 +522,144 @@ New logs for all test cases:::::::::::
 2025-09-23 17:47:22 - INFO -******The total trophy count are matched with DB count*******
 2025-09-23 17:47:23 - INFO -********Expected total trophies redeemed count form db:65 but got form UI 65***********
 2025-09-23 17:47:23 - INFO -******The total trophies redeemed count are matched with DB count*******
+2025-10-01 14:12:49 - INFO -******Click on the Dashboard menu****
+2025-10-01 14:13:46 - INFO -******Click on the Dashboard menu****
+2025-10-01 14:24:28 - INFO -******Click on the Dashboard menu****
+2025-10-01 14:24:38 - INFO -*********Expected  total niyats count  in db: 106, but got on widget: 106*****
+2025-10-01 14:24:38 - INFO -*********Expected active niyat count in bd: 58, but got on widget: 58*****
+2025-10-01 14:24:38 - INFO -*********Expected approval pending niyat count in db: 8, but got on widget: 8*****
+2025-10-01 14:24:38 - INFO -*********Expected completed niyat count: 40, but got on widget: 40*****
+2025-10-01 14:24:38 - INFO -*********Expected total niyat count in db: 106, but got total niyat count after adding all status: 106*****
+2025-10-01 14:24:38 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-10-01 14:24:45 - INFO -****Expected  total niyats count  in db '1', but got on widget '1'*****
+2025-10-01 14:24:45 - INFO -****Expected active niyat count in bd 1, but got on widget 1*****
+2025-10-01 14:24:45 - INFO -****Expected approval pending niyat count in db 0, but got on widget ' 0*****
+2025-10-01 14:24:45 - INFO -****Expected completed niyat count 0, but got on widget 0*****
+2025-10-01 14:24:45 - INFO -****Expected total niyat count in db 1, but got total niyat count after adding all status1*****
+2025-10-01 14:24:45 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-10-01 14:24:51 - INFO -***Expected  total niyats count  in db '1', but got on widget '1'*****
+2025-10-01 14:24:51 - INFO -***Expected active niyat count in bd 1, but got on widget 1*****
+2025-10-01 14:24:51 - INFO -***Expected approval pending niyat count in db 0, but got on widget ' 0*****
+2025-10-01 14:24:51 - INFO -***Expected completed niyat count 0, but got on widget 0*****
+2025-10-01 14:24:51 - INFO -***Expected total niyat count in db 1, but got total niyat count after adding all status1*****
+2025-10-01 14:24:51 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-10-01 14:24:58 - INFO -******Expected  total niyats count  in db: '1, but got on widget: 1********
+2025-10-01 14:24:58 - INFO -*****Expected active niyat count in bd: 1, but got on widget: 1********
+2025-10-01 14:24:58 - INFO -***Expected approval pending niyat count in db: 0, but got on widget : 0********
+2025-10-01 14:24:58 - INFO -*****Expected completed niyat count: 0, but got on widget: 0********
+2025-10-01 14:24:58 - INFO -***********Expected total niyat count in db: 1, but got total niyat count after adding all status: 1********
+2025-10-01 14:24:58 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-10-01 14:25:06 - INFO -********Expected  total niyats count  in db: '15', but got on widget : 15*********
+2025-10-01 14:25:06 - INFO -******Expected active niyat count in bd: 14, but got on widget: 14****
+2025-10-01 14:25:06 - INFO -*****Expected approval pending niyat count in db : 0, but got on widget : 0*****
+2025-10-01 14:25:06 - INFO -********Expected completed niyat count: 1, but got on widget: 1***********
+2025-10-01 14:25:06 - INFO -********Expected total niyat count in db: 15, but got total niyat count after adding all status: 15'**********
+2025-10-01 14:25:06 - INFO -*****Verify all widget count for 1 year filter successfully.******
+2025-10-01 14:25:07 - INFO -Expected total trophy count form db:121 but got form UI 121
+2025-10-01 14:25:07 - INFO -******The total trophy count are matched with DB count*******
+2025-10-01 14:25:07 - INFO -********Expected total trophies redeemed count form db:65 but got form UI 65***********
+2025-10-01 14:25:07 - INFO -******The total trophies redeemed count are matched with DB count*******
+2025-10-01 14:25:09 - INFO -*****Expected path: /catalogue, current path:  https://qa-elaam.demoapplication.net/catalogue******
+2025-10-01 14:25:09 - INFO -******The redeemed Now button is clicked successfully and the user is redirected to the catalogue page*******
+2025-10-01 14:25:11 - INFO -******widget count: 106, pagination count:106**********
+2025-10-01 14:25:11 - INFO -**** Total Niyat widget count are matched with pagination count**
+2025-10-01 14:25:13 - INFO -******DB count: 19, UI count 19**********
+2025-10-01 14:25:13 - INFO -********Search is working fine*******
+2025-10-01 14:25:14 - INFO -*********Expected niyat question on info page: dgdgerertreter, but got dgdgerertreter******
+2025-10-01 14:25:14 - INFO -****niyat question and nitay question on information page are matched****
+2025-10-01 14:25:15 - INFO -*****Expected Heading: Mumin Dashboard, but got in actual: Mumin Dashboard 
+2025-10-01 14:25:15 - INFO -******Verify the mumin dashboard heading****
+2025-10-01 14:35:44 - INFO -******Click on the Dashboard menu****
+2025-10-01 14:35:54 - INFO -*********Expected  total niyats count  in db: 106, but got on widget: 106*****
+2025-10-01 14:35:54 - INFO -*********Expected active niyat count in bd: 58, but got on widget: 58*****
+2025-10-01 14:35:54 - INFO -*********Expected approval pending niyat count in db: 8, but got on widget: 8*****
+2025-10-01 14:35:54 - INFO -*********Expected completed niyat count: 40, but got on widget: 40*****
+2025-10-01 14:35:54 - INFO -*********Expected total niyat count in db: 106, but got total niyat count after adding all status: 106*****
+2025-10-01 14:35:54 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-10-01 14:36:01 - INFO -****Expected  total niyats count  in db '1', but got on widget '1'*****
+2025-10-01 14:36:01 - INFO -****Expected active niyat count in bd 1, but got on widget 1*****
+2025-10-01 14:36:01 - INFO -****Expected approval pending niyat count in db 0, but got on widget ' 0*****
+2025-10-01 14:36:01 - INFO -****Expected completed niyat count 0, but got on widget 0*****
+2025-10-01 14:36:01 - INFO -****Expected total niyat count in db 1, but got total niyat count after adding all status1*****
+2025-10-01 14:36:01 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-10-01 14:36:07 - INFO -***Expected  total niyats count  in db '1', but got on widget '1'*****
+2025-10-01 14:36:07 - INFO -***Expected active niyat count in bd 1, but got on widget 1*****
+2025-10-01 14:36:07 - INFO -***Expected approval pending niyat count in db 0, but got on widget ' 0*****
+2025-10-01 14:36:07 - INFO -***Expected completed niyat count 0, but got on widget 0*****
+2025-10-01 14:36:07 - INFO -***Expected total niyat count in db 1, but got total niyat count after adding all status1*****
+2025-10-01 14:36:07 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-10-01 14:36:14 - INFO -******Expected  total niyats count  in db: '1, but got on widget: 1********
+2025-10-01 14:36:14 - INFO -*****Expected active niyat count in bd: 1, but got on widget: 1********
+2025-10-01 14:36:14 - INFO -***Expected approval pending niyat count in db: 0, but got on widget : 0********
+2025-10-01 14:36:14 - INFO -*****Expected completed niyat count: 0, but got on widget: 0********
+2025-10-01 14:36:14 - INFO -***********Expected total niyat count in db: 1, but got total niyat count after adding all status: 1********
+2025-10-01 14:36:14 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-10-01 14:36:23 - INFO -********Expected  total niyats count  in db: '15', but got on widget : 15*********
+2025-10-01 14:36:23 - INFO -******Expected active niyat count in bd: 14, but got on widget: 14****
+2025-10-01 14:36:23 - INFO -*****Expected approval pending niyat count in db : 0, but got on widget : 0*****
+2025-10-01 14:36:23 - INFO -********Expected completed niyat count: 1, but got on widget: 1***********
+2025-10-01 14:36:23 - INFO -********Expected total niyat count in db: 15, but got total niyat count after adding all status: 15'**********
+2025-10-01 14:36:23 - INFO -*****Verify all widget count for 1 year filter successfully.******
+2025-10-01 14:36:23 - INFO -Expected total trophy count form db:121 but got form UI 121
+2025-10-01 14:36:23 - INFO -******The total trophy count are matched with DB count*******
+2025-10-01 14:36:23 - INFO -********Expected total trophies redeemed count form db:65 but got form UI 65***********
+2025-10-01 14:36:23 - INFO -******The total trophies redeemed count are matched with DB count*******
+2025-10-01 14:36:24 - INFO -*****Expected path: /catalogue, current path:  https://qa-elaam.demoapplication.net/catalogue******
+2025-10-01 14:36:24 - INFO -******The redeemed Now button is clicked successfully and the user is redirected to the catalogue page*******
+2025-10-01 14:36:26 - INFO -******widget count: 106, pagination count:106**********
+2025-10-01 14:36:26 - INFO -**** Total Niyat widget count are matched with pagination count**
+2025-10-01 14:36:29 - INFO -******DB count: 19, UI count 19**********
+2025-10-01 14:36:29 - INFO -********Search is working fine*******
+2025-10-01 14:36:30 - INFO -*********Expected niyat question on info page: dgdgerertreter, but got dgdgerertreter******
+2025-10-01 14:36:30 - INFO -****niyat question and nitay question on information page are matched****
+2025-10-01 14:36:31 - INFO -*****Expected Heading: Mumin Dashboard, but got in actual: Mumin Dashboard 
+2025-10-01 14:36:31 - INFO -******Verify the mumin dashboard heading****
+2025-10-01 14:51:11 - INFO -******Click on the Dashboard menu****
+2025-10-01 14:51:20 - INFO -*********Expected  total niyats count  in db: 106, but got on widget: 106*****
+2025-10-01 14:51:20 - INFO -*********Expected active niyat count in bd: 58, but got on widget: 58*****
+2025-10-01 14:51:20 - INFO -*********Expected approval pending niyat count in db: 8, but got on widget: 8*****
+2025-10-01 14:51:20 - INFO -*********Expected completed niyat count: 40, but got on widget: 40*****
+2025-10-01 14:51:20 - INFO -*********Expected total niyat count in db: 106, but got total niyat count after adding all status: 106*****
+2025-10-01 14:51:20 - INFO -********Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-10-01 14:51:27 - INFO -****Expected  total niyats count  in db '1', but got on widget '1'*****
+2025-10-01 14:51:27 - INFO -****Expected active niyat count in bd 1, but got on widget 1*****
+2025-10-01 14:51:27 - INFO -****Expected approval pending niyat count in db 0, but got on widget ' 0*****
+2025-10-01 14:51:27 - INFO -****Expected completed niyat count 0, but got on widget 0*****
+2025-10-01 14:51:27 - INFO -****Expected total niyat count in db 1, but got total niyat count after adding all status1*****
+2025-10-01 14:51:27 - INFO -*****Verify all widget count for 1 month filter successfully.******
+2025-10-01 14:51:33 - INFO -***Expected  total niyats count  in db '1', but got on widget '1'*****
+2025-10-01 14:51:33 - INFO -***Expected active niyat count in bd 1, but got on widget 1*****
+2025-10-01 14:51:33 - INFO -***Expected approval pending niyat count in db 0, but got on widget ' 0*****
+2025-10-01 14:51:33 - INFO -***Expected completed niyat count 0, but got on widget 0*****
+2025-10-01 14:51:33 - INFO -***Expected total niyat count in db 1, but got total niyat count after adding all status1*****
+2025-10-01 14:51:33 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-10-01 14:51:40 - INFO -******Expected  total niyats count  in db: '1, but got on widget: 1********
+2025-10-01 14:51:40 - INFO -*****Expected active niyat count in bd: 1, but got on widget: 1********
+2025-10-01 14:51:40 - INFO -***Expected approval pending niyat count in db: 0, but got on widget : 0********
+2025-10-01 14:51:40 - INFO -*****Expected completed niyat count: 0, but got on widget: 0********
+2025-10-01 14:51:40 - INFO -***********Expected total niyat count in db: 1, but got total niyat count after adding all status: 1********
+2025-10-01 14:51:40 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-10-01 14:51:49 - INFO -********Expected  total niyats count  in db: '15', but got on widget : 15*********
+2025-10-01 14:51:49 - INFO -******Expected active niyat count in bd: 14, but got on widget: 14****
+2025-10-01 14:51:49 - INFO -*****Expected approval pending niyat count in db : 0, but got on widget : 0*****
+2025-10-01 14:51:49 - INFO -********Expected completed niyat count: 1, but got on widget: 1***********
+2025-10-01 14:51:49 - INFO -********Expected total niyat count in db: 15, but got total niyat count after adding all status: 15'**********
+2025-10-01 14:51:49 - INFO -*****Verify all widget count for 1 year filter successfully.******
+2025-10-01 14:51:49 - INFO -Expected total trophy count form db:121 but got form UI 121
+2025-10-01 14:51:49 - INFO -******The total trophy count are matched with DB count*******
+2025-10-01 14:51:50 - INFO -********Expected total trophies redeemed count form db:65 but got form UI 65***********
+2025-10-01 14:51:50 - INFO -******The total trophies redeemed count are matched with DB count*******
+2025-10-01 14:51:51 - INFO -*****Expected path: /catalogue, current path:  https://qa-elaam.demoapplication.net/catalogue******
+2025-10-01 14:51:51 - INFO -******The redeemed Now button is clicked successfully and the user is redirected to the catalogue page*******
+2025-10-01 14:51:52 - INFO -******widget count: 106, pagination count:106**********
+2025-10-01 14:51:52 - INFO -**** Total Niyat widget count are matched with pagination count**
+2025-10-01 14:51:55 - INFO -******DB count: 19, UI count 19**********
+2025-10-01 14:51:55 - INFO -********Search is working fine*******
+2025-10-01 14:51:56 - INFO -*********Expected niyat question on info page: dgdgerertreter, but got dgdgerertreter******
+2025-10-01 14:51:56 - INFO -****niyat question and nitay question on information page are matched****
+2025-10-01 14:51:57 - INFO -*****Expected Heading: Mumin Dashboard, but got in actual: Mumin Dashboard 
+2025-10-01 14:51:57 - INFO -******Verify the mumin dashboard heading****
+2025-10-01 14:51:59 - INFO -***click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value****
+2025-10-01 14:51:59 - INFO -***The item per page count:10 and pagination count : 10, matched with row count is displayed: 10***
+2025-10-03 09:43:19 - INFO -******The success message : Notification Sent Successfully. and the expected text: Notification Sent Successfully.*****
+

@@ -1,0 +1,1 @@
+[32mINFO    [0m automation_logger:test_mumin_dashboard.py:354 ******The success message : Notification Sent Successfully. and the expected text: Notification Sent Successfully.*****
