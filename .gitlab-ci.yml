@@ -1,0 +1,30 @@
+image: python:3.10
+
+stages:
+  - test
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+
+before_script:
+  - python --version
+  - pip install --upgrade pip
+  - pip install -r requirements.txt
+  - playwright install --with-deps
+
+playwright_tests:
+  stage: test
+  script:
+    - pytest -v
+  artifacts:
+    when: always
+    paths:
+      - reports/
+      - allure-results/
+    expire_in: 7 days
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "Elaam_CICD"'
