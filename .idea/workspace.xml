@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4173cbb6-8987-4358-beaa-837c3cac1d62" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FleetAutomation_17-09-2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FleetAutomation_17-09-2024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Cases/test_mumin_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Cases/test_mumin_dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/mumin_dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/mumin_dashboard_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright_and_lotus_automation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/02ff08be-dee2-4c16-929c-061436cff7db-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f5a35ba-bf85-4ea1-bbff-83e528c0f89d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70d9adc7-90d2-454d-a3c0-7dcf6d732f43-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/95c3445d-0c4a-413a-a08d-1e81384ea37c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ad3d8452-9a07-49ff-8b74-2a72e861673f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b1896dab-42ec-4f7b-85e1-1d0618ce6968-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f3700a99-1001-458e-a00d-852b1a0f5e57-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fbe39e87-f5ae-4a62-9bde-924966d802ab-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +73,11 @@
     &quot;Python.kitu.executor&quot;: &quot;Run&quot;,
     &quot;Python.mumin_dashboard_page.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Mumin__dashboard&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Backup/ELAAM/Automation/ELAAM_Automation_08-09-2025&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -115,7 +123,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-1f77c24022e5-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.26830.99" />
       </set>
     </attachedChunks>
   </component>

@@ -17,10 +17,10 @@ class TestCatalogue:
             self.logger.info("******Click on the Catalogue left panel menu****")
 
 
-    def test_total_trophy_count(self, setup, login, elaam_prod):
+    def test_total_trophy_count(self, setup, login, elaam_prod, its_id):
         self.page = login
         self.catalogue_trophy = CataloguePage(self.page)
-        total_trophy_count_from_ui, trophies_redeemed_count_from_ui, trophies_balance_count_from_ui, total_trophy_count_from_db, total_redeemed_trophy_count_from_db, total_balance_trophies_count_form_db = self.catalogue_trophy.get_total_trophies_counts_catalogue(elaam_prod)
+        total_trophy_count_from_ui, trophies_redeemed_count_from_ui, trophies_balance_count_from_ui, total_trophy_count_from_db, total_redeemed_trophy_count_from_db, total_balance_trophies_count_form_db = self.catalogue_trophy.get_total_trophies_counts_catalogue(elaam_prod,its_id)
         with allure.step("Match trophy count with the database count for the trophy"):
             try:
                 assert total_trophy_count_from_db == total_trophy_count_from_ui, f"Expected total trophy count form db:{total_trophy_count_from_db} but got form UI {total_trophy_count_from_ui}"

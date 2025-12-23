@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+Logs/
+Test_Cases/Logs/
+
+# Reports / Artifacts
+allure-results/
+screenshots/
+Screenshots/
+reports/

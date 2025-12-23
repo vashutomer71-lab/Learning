@@ -1,6 +1,5 @@
 import time
-
-from Demos.mmapfile_demo import page_size
+# from Demos.mmapfile_demo import page_size
 from playwright.sync_api import sync_playwright, Page
 from Test_Cases.conftest import db_connection, elaam_prod
 from Utilities.ReadProperties import ReadConfig
@@ -9,7 +8,8 @@ import re
 import random
 import allure
 
-url = ReadConfig.get_back_end_url()
+# url = ReadConfig.getBackEndUrl()
+
 
 xpath_dashboard_menu = "//li/a[normalize-space(text())='Mumin Dashboard']"
 xpath_dashboard_heading = "//h1[normalize-space(text())='Mumin Dashboard']"
@@ -25,8 +25,11 @@ xpath_1_year = "//span[normalize-space(text())='1 year']"
 xpath_total_trophy_count = "(//p[contains(text(),'')])[11]"
 xpath_trophies_redeemed= "//p[contains(text(),'Trophies Redeemed')]"
 xpath_pagination_text= "//div[@class='mat-paginator-range-actions']"
+xpath_umoor_column = "//tbody[@role='rowgroup']//tr//td[8]"
 xpath_search_field = "(//div[contains(@class,'mat-form-field-infix')])[2]"
-xpath_fmb_option = "(//mat-option[@role='option'])[1]"
+xpath_search_dropdown="//mat-option//span"
+DROPDOWN_UMOOR_OPTION_XPATH = "//mat-option//span[normalize-space()='{value}']"
+xpath_row_after_search = "//tbody[@role='rowgroup']//tr//td[8][normalize-space() = '{value}']"
 xpath_niyat_question = "//tbody/tr[1]/td[3]"
 xpath_view_icon = "//tbody/tr[1]/td[9]//mat-icon[@title='Info']"
 xpath_niyat_question_info_page = "//div[@class='info_txt']"
@@ -78,15 +81,16 @@ class MuminDashboardPage:
         return dashboard_text_frontend
 
 
-    def verify_dashboard_tile_all_filter(self, elaam_prod):
+    def verify_dashboard_tile_all_filter(self, elaam_prod, its_id):
         self.page.wait_for_timeout(3000)
         total_niyat_count_widget = int(next(line for line in self.page.inner_text(xpath_Total_Niyat_tile).splitlines() if line.strip()))
         active_niyat_count_widget = int(next(line for line in self.page.inner_text(xpath_Active_Niyat_tile).splitlines() if line.strip()))
         approval_pending_niyat_count_widget = int(next(line for line in self.page.inner_text(xpath_Approval_pending_Niyat_tile).splitlines() if line.strip()))
         completed_niyat_count_widget = int(next(line for line in self.page.inner_text(xpath_Completed_Niyat_tile).splitlines() if line.strip()))
         # Execute SQL query to fetch data from the database
-        total_niyat_query = "all_niyat_tile_count_query"
-        headers, result = elaam_prod(total_niyat_query)
+        # total_niyat_query = "all_niyat_tile_count_query"
+        headers, result = elaam_prod("all_niyat_tile_count_query", its_id)
+        print("total niya query:", result)
         db_table_view= tabulate(result, headers=headers, tablefmt="grid")   # Display the database results in a tabular format
         # Process database results to store counts by status
         total_niyat_count_db = result[0][headers.index('total_count')]
@@ -95,23 +99,26 @@ class MuminDashboardPage:
         approval_pending_db = result[0][headers.index('approval_pending_count')]
         deactivated_db = result[0][headers.index('deactivated_count')]
         total_niyat_count_add_all_status = active_count_db + completed_count_db + approval_pending_db + deactivated_db
+        
         return total_niyat_count_widget, total_niyat_count_db,active_niyat_count_widget,active_count_db,approval_pending_niyat_count_widget,approval_pending_db,completed_niyat_count_widget,completed_count_db,total_niyat_count_add_all_status,total_niyat_count_db
 
     def click_duration_drop_down_and_select_1_month_filter(self):
         self.page.locator(xpath_duration_dropdown).click()
-        self.page.locator("body").press("ControlOrMeta+Shift+I")
+        self.page.wait_for_selector("body").press("ControlOrMeta+Shift+I")       
         # self.page.get_by_role("option", name="Last 1 Month").click()
         self.page.locator(xpath_1_month).click()
+        self.page.keyboard.press("Escape")
 
-    def verify_dashboard_tile_1_month_filter(self, elaam_prod):
+    def verify_dashboard_tile_1_month_filter(self, elaam_prod, its_id):
         self.page.wait_for_timeout(3000)
         total_niyat_count_widget_for_1_month = int(next(line for line in self.page.inner_text(xpath_Total_Niyat_tile).splitlines() if line.strip()))
         active_niyat_count_widget_for_1_month  = int(next(line for line in self.page.inner_text(xpath_Active_Niyat_tile).splitlines() if line.strip()))
         approval_pending_niyat_count_widget_for_1_month = int(next(line for line in self.page.inner_text(xpath_Approval_pending_Niyat_tile).splitlines() if line.strip()))
         completed_niyat_count_widget_for_1_month = int(next(line for line in self.page.inner_text(xpath_Completed_Niyat_tile).splitlines() if line.strip()))
         # Execute SQL query to fetch data from the database
-        total_niyat_query_for_1_month= "1_month_niyat_tile_count_query"
-        headers, result = elaam_prod(total_niyat_query_for_1_month)
+        # total_niyat_query_for_1_month= "1_month_niyat_tile_count_query"
+        headers, result = elaam_prod("1_month_niyat_tile_count_query", its_id)
+        print("total niya query for 1 month:", result)
         db_table_view= tabulate(result, headers=headers, tablefmt="grid")   # Display the database results in a tabular format
         # Process database results to store counts by status
         total_niyat_count_db_for_1_month = result[0][headers.index('total_count')]
@@ -128,16 +135,17 @@ class MuminDashboardPage:
         self.page.locator("body").press("ControlOrMeta+Shift+I")
         # self.page.get_by_role("option", name="Last 1 Month").click()
         self.page.locator(xpath_3_month).click()
+        self.page.keyboard.press("Escape")
 
-    def verify_dashboard_tile_3_month_filter(self, elaam_prod):
+    def verify_dashboard_tile_3_month_filter(self, elaam_prod, its_id):
         self.page.wait_for_timeout(3000)
         total_niyat_count_widget_for_3_month = int(next(line for line in self.page.inner_text(xpath_Total_Niyat_tile).splitlines() if line.strip()))
         active_niyat_count_widget_for_3_month  = int(next(line for line in self.page.inner_text(xpath_Active_Niyat_tile).splitlines() if line.strip()))
         approval_pending_niyat_count_widget_for_3_month = int(next(line for line in self.page.inner_text(xpath_Approval_pending_Niyat_tile).splitlines() if line.strip()))
         completed_niyat_count_widget_for_3_month = int(next(line for line in self.page.inner_text(xpath_Completed_Niyat_tile).splitlines() if line.strip()))
-        # Execute SQL query to fetch data from the database
-        total_niyat_query_for_3_month= "3_month_niyat_tile_count_query"
-        headers, result = elaam_prod(total_niyat_query_for_3_month)
+        # Execute SQL query to fetch data from the database        
+        headers, result = elaam_prod("3_month_niyat_tile_count_query", its_id)
+        print("total niya query for 3 months:", result)
         db_table_view= tabulate(result, headers=headers, tablefmt="grid")   # Display the database results in a tabular format
         # Process database results to store counts by status
         total_niyat_count_db_for_3_month = result[0][headers.index('total_count')]
@@ -153,16 +161,17 @@ class MuminDashboardPage:
         self.page.locator("body").press("ControlOrMeta+Shift+I")
         # self.page.get_by_role("option", name="Last 1 Month").click()
         self.page.locator(xpath_6_month).click()
+        self.page.keyboard.press("Escape")
 
-    def verify_dashboard_tile_6_month_filter(self, elaam_prod):
+    def verify_dashboard_tile_6_month_filter(self, elaam_prod, its_id):
         self.page.wait_for_timeout(3000)
         total_niyat_count_widget_for_6_month = int(next(line for line in self.page.inner_text(xpath_Total_Niyat_tile).splitlines() if line.strip()))
         active_niyat_count_widget_for_6_month  = int(next(line for line in self.page.inner_text(xpath_Active_Niyat_tile).splitlines() if line.strip()))
         approval_pending_niyat_count_widget_for_6_month = int(next(line for line in self.page.inner_text(xpath_Approval_pending_Niyat_tile).splitlines() if line.strip()))
         completed_niyat_count_widget_for_6_month = int(next(line for line in self.page.inner_text(xpath_Completed_Niyat_tile).splitlines() if line.strip()))
         # Execute SQL query to fetch data from the database
-        total_niyat_query_for_6_month= "6_month_niyat_tile_count_query"
-        headers, result = elaam_prod(total_niyat_query_for_6_month)
+        
+        headers, result = elaam_prod("6_month_niyat_tile_count_query", its_id)
         db_table_view= tabulate(result, headers=headers, tablefmt="grid")   # Display the database results in a tabular format
         # Process database results to store counts by status
         total_niyat_count_db_for_6_month = result[0][headers.index('total_count')]
@@ -178,16 +187,17 @@ class MuminDashboardPage:
         self.page.locator(xpath_duration_dropdown).click()
         self.page.locator("body").press("ControlOrMeta+Shift+I")
         self.page.locator(xpath_1_year).click()
+        self.page.keyboard.press("Escape")
 
-    def verify_dashboard_tile_1_year_filter(self, elaam_prod):
+    def verify_dashboard_tile_1_year_filter(self, elaam_prod, its_id):
         self.page.wait_for_timeout(5000)
         total_niyat_count_widget_for_1_year = int(next(line for line in self.page.inner_text(xpath_Total_Niyat_tile).splitlines() if line.strip()))
         active_niyat_count_widget_for_1_year  = int(next(line for line in self.page.inner_text(xpath_Active_Niyat_tile).splitlines() if line.strip()))
         approval_pending_niyat_count_widget_for_1_year = int(next(line for line in self.page.inner_text(xpath_Approval_pending_Niyat_tile).splitlines() if line.strip()))
         completed_niyat_count_widget_for_1_year = int(next(line for line in self.page.inner_text(xpath_Completed_Niyat_tile).splitlines() if line.strip()))
         # Execute SQL query to fetch data from the database
-        total_niyat_query_for_1_year= "1_year_niyat_tile_count_query"
-        headers, result = elaam_prod(total_niyat_query_for_1_year)
+        
+        headers, result = elaam_prod("1_year_niyat_tile_count_query", its_id)
         db_table_view= tabulate(result, headers=headers, tablefmt="grid")   # Display the database results in a tabular format
         # Process database results to store counts by status
         total_niyat_count_db_for_1_year = result[0][headers.index('total_count')]
@@ -199,7 +209,7 @@ class MuminDashboardPage:
         return total_niyat_count_widget_for_1_year, total_niyat_count_db_for_1_year,active_niyat_count_widget_for_1_year,active_count_db, approval_pending_niyat_count_widget_for_1_year,approval_pending_db,completed_niyat_count_widget_for_1_year,completed_count_db,total_niyat_count_add_all_status,total_niyat_count_db_for_1_year
 
 
-    def get_total_trophies_counts(self, elaam_prod):
+    def get_total_trophies_counts(self, elaam_prod, its_id):
         """Fetch trophy counts from two locators and return as separate variables."""
 
         def get_number(loc):
@@ -210,14 +220,13 @@ class MuminDashboardPage:
         # Fetch counts
         total_trophys_count_from_ui = get_number(xpath_total_trophy_count)
         # return main_count,extra_count
-        total_trophy_count_query = "mumin_total_trophy_reward"
-        headers, result = elaam_prod(total_trophy_count_query)
+        headers, result = elaam_prod("mumin_total_trophy_reward", its_id)
         db_table_format = tabulate(result, headers=headers, tablefmt="grid")
         total_trophy_count_from_db = result[0][0]
         return total_trophy_count_from_db, total_trophys_count_from_ui
 
 
-    def get_trophies_redeemed_counts(self, elaam_prod):
+    def get_trophies_redeemed_counts(self, elaam_prod, its_id):
         """Fetch trophy counts from two locators and return as separate variables."""
         def get_number(loc):
             # Wait until element has a number
@@ -228,7 +237,7 @@ class MuminDashboardPage:
         troghies_reedeemd_count_from_ui = get_number(xpath_trophies_redeemed)
         # return main_count,extra_count
         total_trophies_redeemed_count_query= "mumin_trophies_redeemed"
-        headers, result = elaam_prod(total_trophies_redeemed_count_query)
+        headers, result = elaam_prod(total_trophies_redeemed_count_query, its_id)
         db_table_format = tabulate(result, headers=headers, tablefmt="grid")
         total_trophies_redeemed_count_from_db = result[0][0]
         return total_trophies_redeemed_count_from_db,troghies_reedeemd_count_from_ui
@@ -250,18 +259,48 @@ class MuminDashboardPage:
         total_count_pagination = int(pagination_text.split("of")[-1].strip())
         return total_count_pagination, total_niyat_count_widget
 
-    def search_by_first_fmb_umoor_name_and_validate_with_pagination_count_after_search(self,elaam_prod):
+    def search_by_dynamic_umoor_name_and_validate_with_pagination_count_after_search_UI_DB(self,elaam_prod, its_id):
         """Pick ITS ID from first row, search it, and validate results"""
-        self.page.locator(xpath_search_field).click()
-        self.page.locator(xpath_fmb_option).click()
-        total_niyat_count_after_search_fmb_umoor_name = "mumin_total_niyat_fmb_umoor_after_search"
-        header, result = elaam_prod(total_niyat_count_after_search_fmb_umoor_name)
-        tabulate(result, headers=header, tablefmt="grid")
+        umoor_elements = self.page.locator(xpath_umoor_column) # --- 1) collect all UMOOR values ---
+        umoor_list = [v.strip() for v in umoor_elements.all_inner_texts() if v.strip()]
+        print("Collected UMOOR values:", umoor_list)
+        if not umoor_list:
+            print("No UMOOR values found!")
+            return
+        chosen = random.choice(umoor_list)   # --- 2) pick dynamically (example: random) ---
+        print("Chosen UMOOR to search:", chosen)
+        search_field = self.page.locator(xpath_search_field)   # --- 3) perform search ---
+        search_field.click()         
+        self.page.wait_for_selector(xpath_search_dropdown)   # wait for dropdown options    
+        option_xpath = DROPDOWN_UMOOR_OPTION_XPATH.format(value=chosen)   # --- 4) click the same chosen UMOOR from dropdown ---
+        dropdown_option = self.page.locator(option_xpath)
+        dropdown_option.click()
+        # optional: wait for results and verify at least one row contains chosen value
+        self.page.wait_for_timeout(5000)  # or better: wait_for_selector with result row
+        try:
+            option_xpath_after_search = xpath_row_after_search.format(value=chosen)      # check if any cell in same UMOOR column equals chosen
+            row_after_search= self.page.locator(option_xpath_after_search)
+            print("Search result contains the searched UMOOR.")
+        except:
+            print("No matching result found after search.")
+
+        header, result = elaam_prod("get_umoor_id_by_name", chosen)
+        umoortable = tabulate(result, headers=header, tablefmt="grid")
+        print("Umoor name: ", umoortable)
+        if not result:                                            # result example: [(10, 'FMB')]
+            raise Exception(f"No DB record found for UMOOR: {chosen}")
+        umoor_id = result[0][0]
+        db_umoor_name = result[0][1]
+        print(f"DB UMOOR ID: {umoor_id}, DB UMOOR NAME: {db_umoor_name}")
+        header, result = elaam_prod("mumin_total_niyat_fmb_umoor_after_search", its_id, umoor_id)
+        search_result = tabulate(result, headers=header, tablefmt="grid")
+        print("search result: ", search_result)
         total_niyat_count_fmb_umoor_after_search_db = result[0][header.index("total_niyats")]
+        self.page.wait_for_timeout(1000)
         pagination_text = self.page.wait_for_selector(xpath_pagination_text).inner_text()
         # Split by 'of' and take the last part, strip spaces, convert to int
         total_count_pagination_fmb_umoor_search = int(pagination_text.split("of")[-1].strip())
-        return total_niyat_count_fmb_umoor_after_search_db, total_count_pagination_fmb_umoor_search
+        return total_niyat_count_fmb_umoor_after_search_db, total_count_pagination_fmb_umoor_search, db_umoor_name
 
     def test_verify_niyat_question(self):
         niyat_question = self.page.locator(xpath_niyat_question).inner_text()

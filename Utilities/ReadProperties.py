@@ -19,10 +19,10 @@ class ReadConfig():
         return url
 
     @staticmethod
-    def get_back_end_url():
-        back_end_url = config.get('common info', 'back_end_url')
-        return back_end_url
-
+    def getBackEndUrl():
+        backendurl = config.get('common info', 'back_end_url')
+        return backendurl
+    
     @staticmethod
     def getUserName():
         username = config.get('common info', 'username')
@@ -99,6 +99,7 @@ if __name__ == "__main__":
     print(f"ssh user name : {ReadConfig.get_ssh_user()}")
     print(f"ssh key : {ReadConfig.get_ssh_key()}")
     print(f"local host: {ReadConfig.get_local_host()}")
+    print(f"Backend ulr is: {ReadConfig.getBackEndUrl()}")
 
 
 
