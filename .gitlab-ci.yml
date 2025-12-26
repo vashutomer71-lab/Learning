@@ -1,10 +1,14 @@
-image: python:3.10
+image: mcr.microsoft.com/playwright/python:v1.57.0-jammy
 
 stages:
   - test
 
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  DB_HOST: $DB_HOST
+  DB_USER: $DB_USER
+  DB_PASSWORD: $DB_PASSWORD
+  DB_PORT: $DB_PORT
 
 cache:
   paths:
@@ -14,7 +18,6 @@ before_script:
   - python --version
   - pip install --upgrade pip
   - pip install -r requirements.txt
-  - playwright install --with-deps
 
 playwright_tests:
   stage: test
@@ -26,5 +29,3 @@ playwright_tests:
       - reports/
       - allure-results/
     expire_in: 7 days
-  rules:
-    - if: '$CI_COMMIT_BRANCH == "Elaam_CICD"'
