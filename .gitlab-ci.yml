@@ -5,6 +5,10 @@ stages:
 
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  DB_HOST: $DB_HOST
+  DB_USER: $DB_USER
+  DB_PASSWORD: $DB_PASSWORD
+  DB_PORT: $DB_PORT
 
 cache:
   paths:
