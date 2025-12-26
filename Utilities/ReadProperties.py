@@ -137,24 +137,33 @@ class ReadConfig():
     def get_ssh_user():
         return os.getenv("SSH_USER") or config.get('SSH details', 'ssh_user')
 
+    # @staticmethod
+    # def get_ssh_key():
+    #     """
+    #     In GitLab CI → SSH_PKEY comes as env variable (private key text)
+    #     Write it to /tmp/ci_ssh_key.pem then return file path
+    #     Local → fallback to config.ini
+    #     """
+    #     ssh_env_key = os.getenv("SSH_PKEY")
+    #     if ssh_env_key:
+    #         pem_file = "/tmp/ci_ssh_key.pem"
+    #         # Write CI key only first time
+    #         if not os.path.exists(pem_file):
+    #             with open(pem_file, "w") as f:
+    #                 f.write(ssh_env_key)
+    #             os.chmod(pem_file, 0o600)
+    #         return pem_file
+
+    #     return config.get('SSH details', 'ssh_pkey')
+
     @staticmethod
     def get_ssh_key():
-        """
-        In GitLab CI → SSH_PKEY comes as env variable (private key text)
-        Write it to /tmp/ci_ssh_key.pem then return file path
-        Local → fallback to config.ini
-        """
-        ssh_env_key = os.getenv("SSH_PKEY")
-        if ssh_env_key:
-            pem_file = "/tmp/ci_ssh_key.pem"
-            # Write CI key only first time
-            if not os.path.exists(pem_file):
-                with open(pem_file, "w") as f:
-                    f.write(ssh_env_key)
-                os.chmod(pem_file, 0o600)
-            return pem_file
-
+        # CI में env से private key फाइल
+        if os.getenv("CI"):
+            return "/tmp/ci_ssh.pem"
+        # local में config.ini से
         return config.get('SSH details', 'ssh_pkey')
+
 
     @staticmethod
     def get_local_host():
@@ -172,6 +181,7 @@ if __name__ == "__main__":
     print(f"Password: {ReadConfig.getPassword()}")
     print("DB HOST FROM ENV:", os.getenv("DB_HOST"))
     print("DB PORT FROM ENV:", os.getenv("DB_PORT"))
+    print("CI DB PASS =", os.getenv("DB_PASSWORD"))
     print(f"DB host: {ReadConfig.get_db_host()}")
     print(f"DB port: {ReadConfig.get_db_port()}")
     print(f"DB User Name : {ReadConfig.get_db_user()}")

@@ -17,6 +17,9 @@ from pathlib import Path
 
 # Screenshots folder ensure karo
 os.makedirs("screenshots", exist_ok=True)
+print("🔑 SSH KEY PATH:", ReadConfig.get_ssh_key())
+print("🔁 SSH KEY EXISTS:", os.path.exists(ReadConfig.get_ssh_key()))
+
 
 # -------------------- Playwright Fixtures --------------------
 

@@ -28,6 +28,9 @@ before_script:
   - echo "$SSH_PKEY" > /tmp/ci_ssh_key.pem
   - chmod 600 /tmp/ci_ssh_key.pem
 
+  # - echo "$SSH_PKEY" > /tmp/ci_ssh.pem
+  # - chmod 600 /tmp/ci_ssh.pem
+
 playwright_tests:
   stage: test
   script:
