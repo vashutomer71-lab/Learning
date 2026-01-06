@@ -1,0 +1,609 @@
+2024-10-22 12:15:46 - INFO -****Login successfully Completed*******
+2024-10-22 12:15:46 - INFO -*****Redirect on the accessory page****
+2024-10-22 12:15:49 - INFO -******Click on the assets menu successfully*******
+2024-10-22 12:15:51 - INFO -****Click on the accessory tab successfully***
+2024-10-22 12:15:51 - INFO -*******The hading is matched successfully******
+2024-10-22 12:15:51 - INFO -******Accessory page header verify successfully******
+2024-10-22 12:15:51 - INFO -******Accessory total count matched with the sum of the sub status*****
+2024-10-22 12:15:51 - INFO -******Table header are successfully matched******
+2024-10-22 12:16:23 - INFO -********The search key enter successfully and verify the value in table with count******
+2024-10-22 12:16:45 - INFO -****Login successfully Completed*******
+2024-10-22 12:16:45 - INFO -*****Redirect on the accessory page****
+2024-10-22 12:16:48 - INFO -******Click on the assets menu successfully*******
+2024-10-22 12:16:50 - INFO -****Click on the accessory tab successfully***
+2024-10-22 12:16:50 - INFO -******Accessory total Initial count****
+2024-10-22 12:16:50 - INFO -******Accessory cable total Initial count*******
+2024-10-22 12:16:51 - INFO -****The user redirected on the add accessory page***
+2024-10-22 12:16:54 - INFO -****Select the fleet name successfully***
+2024-10-22 12:16:56 - INFO -***Select the depot name successfully ***
+2024-10-22 12:16:59 - INFO -****Select the accessory category value****
+2024-10-22 12:17:01 - INFO -****Fill serial number successfully****
+2024-10-22 12:17:03 - INFO -***Fill device id successfully***
+2024-10-22 12:17:05 - INFO -***Select the status successfully ***
+2024-10-22 12:17:07 - INFO -***Select the make name successfully ***
+2024-10-22 12:17:10 - INFO -***Select the model successfully ***
+2024-10-22 12:17:13 - INFO -***Select the warranty start date successfully ***
+2024-10-22 12:17:17 - INFO -***Select the warranty end date successfully ***
+2024-10-22 12:17:21 - INFO -*****Accessory count updated successfully*****
+2024-10-22 12:17:40 - INFO -****Login successfully Completed*******
+2024-10-22 12:17:40 - INFO -*****Redirect on the accessory page****
+2024-10-22 12:17:42 - INFO -******Click on the assets menu successfully*******
+2024-10-22 12:17:44 - INFO -****Click on the accessory tab successfully***
+2024-10-22 12:17:44 - INFO -******Initial count****
+2024-10-22 12:17:44 - INFO -******Modem Initial count****
+2024-10-22 12:17:45 - INFO -****The user redirected on the add accessory page***
+2024-10-22 12:17:48 - INFO -****Select the fleet name successfully***
+2024-10-22 12:17:50 - INFO -***Select the depot name successfully ***
+2024-10-22 12:17:52 - INFO -****Select the accessory category value modem****
+2024-10-22 12:17:55 - INFO -****Fill serial number successfully****
+2024-10-22 12:17:57 - INFO -***Fill device id successfully***
+2024-10-22 12:17:59 - INFO -***Select the status successfully ***
+2024-10-22 12:18:01 - INFO -*******Fill carrier name*******
+2024-10-22 12:18:03 - INFO -******Fill imei number*****
+2024-10-22 12:18:05 - INFO -******Fill id address *****
+2024-10-22 12:18:08 - INFO -***Select the make name successfully ***
+2024-10-22 12:18:10 - INFO -***Select the model successfully ***
+2024-10-22 12:18:15 - INFO -*****Fill sim number ****
+2024-10-22 12:18:17 - INFO -*****Select the modem type value******
+2024-10-22 12:18:21 - INFO -***Select the warranty start date successfully ***
+2024-10-22 12:18:24 - INFO -***Select the warranty end date successfully ***
+2024-10-22 12:18:28 - INFO -*****Select installation date ******
+2024-10-22 12:18:32 - INFO -*****Accessory count updated successfully*****
+2024-10-22 12:34:42 - INFO -****Login successfully Completed*******
+2024-10-22 12:34:42 - INFO -*****Redirect on the accessory page****
+2024-10-22 12:34:45 - INFO -******Click on the assets menu successfully*******
+2024-10-22 12:34:45 - INFO -****Click on the accessory tab successfully***
+2024-10-22 12:34:45 - INFO -*******The hading is matched successfully******
+2024-10-22 12:34:45 - INFO -******Accessory page header verify successfully******
+2024-10-22 12:34:45 - INFO -******Accessory total count matched with the sum of the sub status*****
+2024-10-22 12:34:45 - INFO -******Table header are successfully matched******
+2024-10-22 12:35:18 - INFO -********The search key enter successfully and verify the value in table with count******
+2024-10-22 12:35:39 - INFO -****Login successfully Completed*******
+2024-10-22 12:35:39 - INFO -*****Redirect on the accessory page****
+2024-10-22 12:35:42 - INFO -******Click on the assets menu successfully*******
+2024-10-22 12:35:42 - INFO -****Click on the accessory tab successfully***
+2024-10-22 12:35:42 - INFO -******Accessory total Initial count****
+2024-10-22 12:35:42 - INFO -******Accessory cable total Initial count*******
+2024-10-22 12:35:43 - INFO -****The user redirected on the add accessory page***
+2024-10-22 12:35:44 - INFO -****Select the fleet name successfully***
+2024-10-22 12:35:45 - INFO -***Select the depot name successfully ***
+2024-10-22 12:35:45 - INFO -****Select the accessory category value****
+2024-10-22 12:35:46 - INFO -****Fill serial number successfully****
+2024-10-22 12:35:46 - INFO -***Fill device id successfully***
+2024-10-22 12:35:46 - INFO -***Select the status successfully ***
+2024-10-22 12:35:47 - INFO -***Select the make name successfully ***
+2024-10-22 12:35:48 - INFO -***Select the model successfully ***
+2024-10-22 12:35:49 - INFO -***Select the warranty start date successfully ***
+2024-10-22 12:35:50 - INFO -***Select the warranty end date successfully ***
+2024-10-22 12:36:40 - INFO -****Login successfully Completed*******
+2024-10-22 12:36:40 - INFO -*****Redirect on the accessory page****
+2024-10-22 12:36:43 - INFO -******Click on the assets menu successfully*******
+2024-10-22 12:36:43 - INFO -****Click on the accessory tab successfully***
+2024-10-22 12:36:43 - INFO -******Initial count****
+2024-10-22 12:36:43 - INFO -******Modem Initial count****
+2024-10-22 12:36:43 - INFO -****The user redirected on the add accessory page***
+2024-10-22 12:36:44 - INFO -****Select the fleet name successfully***
+2024-10-22 12:36:45 - INFO -***Select the depot name successfully ***
+2024-10-22 12:36:46 - INFO -****Select the accessory category value modem****
+2024-10-22 12:36:47 - INFO -****Fill serial number successfully****
+2024-10-22 12:36:47 - INFO -***Fill device id successfully***
+2024-10-22 12:36:47 - INFO -***Select the status successfully ***
+2024-10-22 12:36:47 - INFO -*******Fill carrier name*******
+2024-10-22 12:36:48 - INFO -******Fill imei number*****
+2024-10-22 12:36:48 - INFO -******Fill id address *****
+2024-10-22 12:36:48 - INFO -***Select the make name successfully ***
+2024-10-22 12:36:49 - INFO -***Select the model successfully ***
+2024-10-22 12:36:52 - INFO -*****Fill sim number ****
+2024-10-22 12:36:53 - INFO -*****Select the modem type value******
+2024-10-22 12:36:54 - INFO -***Select the warranty start date successfully ***
+2024-10-22 12:36:55 - INFO -***Select the warranty end date successfully ***
+2024-10-22 12:36:56 - INFO -*****Select installation date ******
+2024-10-25 17:04:45 - INFO -****Login successfully Completed*******
+2024-10-25 17:04:45 - INFO -*****Redirect on the accessory page****
+2024-10-25 17:04:48 - INFO -******Click on the assets menu successfully*******
+2024-10-25 17:04:50 - INFO -****Click on the accessory tab successfully***
+2024-10-25 17:04:53 - INFO -******Click on the item per page dropdown*****
+2024-10-25 17:05:39 - INFO -****Login successfully Completed*******
+2024-10-25 17:05:39 - INFO -*****Redirect on the accessory page****
+2024-10-25 17:05:42 - INFO -******Click on the assets menu successfully*******
+2024-10-25 17:05:45 - INFO -****Click on the accessory tab successfully***
+2024-10-25 17:05:45 - INFO -******Accessory total Initial count****
+2024-10-25 17:05:45 - INFO -******Accessory cable total Initial count*******
+2024-10-25 17:05:46 - INFO -****The user redirected on the add accessory page***
+2024-10-25 17:05:49 - INFO -****Select the fleet name successfully***
+2024-10-25 17:05:51 - INFO -***Select the depot name successfully ***
+2024-10-25 17:05:54 - INFO -****Select the accessory category value****
+2024-10-25 17:05:56 - INFO -****Fill serial number successfully****
+2024-10-25 17:05:58 - INFO -***Fill device id successfully***
+2024-10-25 17:06:00 - INFO -***Select the status successfully ***
+2024-10-25 17:06:03 - INFO -***Select the make name successfully ***
+2024-10-25 17:06:05 - INFO -***Select the model successfully ***
+2024-10-25 17:06:21 - INFO -****Login successfully Completed*******
+2024-10-25 17:06:21 - INFO -*****Redirect on the accessory page****
+2024-10-25 17:06:25 - INFO -******Click on the assets menu successfully*******
+2024-10-25 17:06:28 - INFO -****Click on the accessory tab successfully***
+2024-10-25 17:06:28 - INFO -******Initial count****
+2024-10-25 17:06:28 - INFO -******Modem Initial count****
+2024-10-25 17:06:29 - INFO -****The user redirected on the add accessory page***
+2024-10-25 17:06:31 - INFO -****Select the fleet name successfully***
+2024-10-25 17:06:34 - INFO -***Select the depot name successfully ***
+2024-10-25 17:06:36 - INFO -****Select the accessory category value modem****
+2024-10-25 17:06:39 - INFO -****Fill serial number successfully****
+2024-10-25 17:06:41 - INFO -***Fill device id successfully***
+2024-10-25 17:06:43 - INFO -***Select the status successfully ***
+2024-11-07 10:29:56 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 10:29:56 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 10:29:56 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 10:29:57 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 10:29:58 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 10:30:00 - INFO -****The entity type dropdown value successfully***
+2024-11-07 10:30:01 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 10:30:02 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 10:30:03 - INFO -***Input the description successfully***
+2024-11-07 10:30:04 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 10:30:05 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 10:30:06 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 10:30:07 - INFO -*******Select the fleet name value successfully******
+2024-11-07 10:30:09 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 10:30:10 - INFO -*******Select the depot name value successfully******
+2024-11-07 10:30:11 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 10:30:12 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 10:30:14 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 10:30:16 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 10:30:16 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 10:30:16 - INFO -******The total tickets charger initial count store successfully*****
+2024-11-07 10:30:18 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 10:30:19 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 10:30:20 - INFO -****The entity type dropdown value successfully***
+2024-11-07 10:30:21 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 10:30:22 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 10:30:24 - INFO -***Input the description successfully***
+2024-11-07 10:30:25 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 10:30:26 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 10:30:27 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 10:30:29 - INFO -*******Select the fleet name value successfully******
+2024-11-07 10:30:30 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 10:30:31 - INFO -*******Select the depot name value successfully******
+2024-11-07 10:30:32 - INFO -****Successfully click on the charge box id dropdown****
+2024-11-07 10:30:33 - INFO -*******Select the charge box id value successfully******
+2024-11-07 10:30:35 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 10:30:36 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 10:30:38 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 10:30:40 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 10:30:40 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 10:30:40 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 10:30:41 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 10:30:42 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 10:30:43 - INFO -****The entity type dropdown value successfully***
+2024-11-07 10:30:45 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 10:30:46 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 10:30:47 - INFO -***Input the description successfully***
+2024-11-07 10:30:48 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 10:30:49 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 10:30:50 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 10:30:52 - INFO -*******Select the fleet name value successfully******
+2024-11-07 10:30:53 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 10:30:54 - INFO -*******Select the depot name value successfully******
+2024-11-07 10:30:55 - INFO -****Successfully click on the vehicle licence plate number dropdown****
+2024-11-07 10:30:56 - INFO -*******Select the vehicle licence plate number value successfully******
+2024-11-07 10:30:57 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 10:30:58 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 10:31:00 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 10:31:01 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 10:31:01 - INFO -******The total tickets driver initial count store successfully*****
+2024-11-07 10:31:02 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 10:31:03 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 10:31:04 - INFO -****The entity type dropdown value driver is select successfully***
+2024-11-07 10:31:05 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 10:31:06 - INFO -****select the ticket type dropdown value is select successfully***
+2024-11-07 10:31:07 - INFO -***Input the description successfully***
+2024-11-07 10:31:08 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 10:31:10 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 10:31:11 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 10:31:12 - INFO -*******Select the fleet name value successfully******
+2024-11-07 10:31:13 - INFO -****Successfully click on the driver name dropdown****
+2024-11-07 10:31:14 - INFO -*******Select the driver name value successfully form the index position one******
+2024-11-07 10:31:15 - INFO -****Successfully click on the assignee to dropdown for driver****
+2024-11-07 10:31:16 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 10:31:18 - INFO -*****The ticket is created successfully and count are matched with is increased for driver entity****
+2024-11-07 10:31:34 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 10:31:34 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 10:31:34 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 10:31:35 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 10:31:37 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 10:31:38 - INFO -****The entity type dropdown value successfully***
+2024-11-07 10:31:39 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 10:31:40 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 10:31:41 - INFO -***Input the description successfully***
+2024-11-07 10:31:42 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 10:31:43 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 10:31:44 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 10:31:45 - INFO -*******Select the fleet name value successfully******
+2024-11-07 10:31:47 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 10:31:48 - INFO -*******Select the depot name value successfully******
+2024-11-07 10:31:49 - INFO -****Successfully click on the charge box id dropdown****
+2024-11-07 10:31:50 - INFO -*******Select the charge box id value successfully******
+2024-11-07 10:31:51 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 10:31:52 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 10:31:54 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 10:32:10 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 10:32:10 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 10:32:10 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 10:32:11 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 10:32:12 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 10:32:13 - INFO -****The entity type dropdown value successfully***
+2024-11-07 10:32:15 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 10:32:16 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 10:32:17 - INFO -***Input the description successfully***
+2024-11-07 10:32:18 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 10:32:19 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 10:32:20 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 10:32:21 - INFO -*******Select the fleet name value successfully******
+2024-11-07 10:32:22 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 10:32:23 - INFO -*******Select the depot name value successfully******
+2024-11-07 10:32:25 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 10:32:26 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 10:32:28 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 10:32:47 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 10:32:47 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 10:32:47 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 10:32:48 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 10:32:49 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 10:32:50 - INFO -****The entity type dropdown value successfully***
+2024-11-07 10:32:51 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 10:32:52 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 10:32:54 - INFO -***Input the description successfully***
+2024-11-07 10:32:55 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 10:32:56 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 10:32:57 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 10:32:58 - INFO -*******Select the fleet name value successfully******
+2024-11-07 10:32:59 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 10:33:00 - INFO -*******Select the depot name value successfully******
+2024-11-07 10:33:01 - INFO -****Successfully click on the vehicle licence plate number dropdown****
+2024-11-07 10:33:03 - INFO -*******Select the vehicle licence plate number value successfully******
+2024-11-07 10:33:04 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 10:33:05 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 10:33:07 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 15:37:26 - INFO -****Login successfully Completed*******
+2024-11-07 15:37:26 - INFO -*****Redirect on the accessory page****
+2024-11-07 15:37:29 - INFO -******Click on the assets menu successfully*******
+2024-11-07 15:37:31 - INFO -****Click on the accessory tab successfully***
+2024-11-07 15:37:31 - INFO -*******The hading is matched successfully******
+2024-11-07 15:37:31 - INFO -******Accessory page header verify successfully******
+2024-11-07 15:37:32 - INFO -******Accessory total count matched with the sum of the sub status*****
+2024-11-07 15:37:32 - INFO -******Table header are successfully matched******
+2024-11-07 15:38:05 - INFO -********The search key enter successfully and verify the value in table with count******
+2024-11-07 15:38:08 - INFO -******Click on the item per page dropdown*****
+2024-11-07 15:38:20 - INFO -****Login successfully Completed*******
+2024-11-07 15:38:20 - INFO -*****Redirect on the accessory page****
+2024-11-07 15:38:23 - INFO -******Click on the assets menu successfully*******
+2024-11-07 15:38:25 - INFO -****Click on the accessory tab successfully***
+2024-11-07 15:38:25 - INFO -******Accessory total Initial count****
+2024-11-07 15:38:26 - INFO -******Accessory cable total Initial count*******
+2024-11-07 15:38:27 - INFO -****The user redirected on the add accessory page***
+2024-11-07 15:38:29 - INFO -****Select the fleet name successfully***
+2024-11-07 15:38:32 - INFO -***Select the depot name successfully ***
+2024-11-07 15:38:34 - INFO -****Select the accessory category value****
+2024-11-07 15:38:36 - INFO -****Fill serial number successfully****
+2024-11-07 15:38:38 - INFO -***Fill device id successfully***
+2024-11-07 15:38:41 - INFO -***Select the status successfully ***
+2024-11-07 15:38:43 - INFO -***Select the make name successfully ***
+2024-11-07 15:38:45 - INFO -***Select the model successfully ***
+2024-11-07 15:38:50 - INFO -***Select the warranty start date successfully ***
+2024-11-07 15:38:54 - INFO -***Select the warranty end date successfully ***
+2024-11-07 15:38:59 - INFO -*****Accessory count updated successfully*****
+2024-11-07 15:39:16 - INFO -****Login successfully Completed*******
+2024-11-07 15:39:16 - INFO -*****Redirect on the accessory page****
+2024-11-07 15:39:19 - INFO -******Click on the assets menu successfully*******
+2024-11-07 15:39:21 - INFO -****Click on the accessory tab successfully***
+2024-11-07 15:39:21 - INFO -******Initial count****
+2024-11-07 15:39:21 - INFO -******Modem Initial count****
+2024-11-07 15:39:22 - INFO -****The user redirected on the add accessory page***
+2024-11-07 15:39:25 - INFO -****Select the fleet name successfully***
+2024-11-07 15:39:27 - INFO -***Select the depot name successfully ***
+2024-11-07 15:39:29 - INFO -****Select the accessory category value modem****
+2024-11-07 15:39:32 - INFO -****Fill serial number successfully****
+2024-11-07 15:39:34 - INFO -***Fill device id successfully***
+2024-11-07 15:39:36 - INFO -***Select the status successfully ***
+2024-11-07 15:39:38 - INFO -*******Fill carrier name*******
+2024-11-07 15:39:41 - INFO -******Fill imei number*****
+2024-11-07 15:39:43 - INFO -******Fill id address *****
+2024-11-07 15:39:45 - INFO -***Select the make name successfully ***
+2024-11-07 15:39:48 - INFO -***Select the model successfully ***
+2024-11-07 15:39:53 - INFO -*****Fill sim number ****
+2024-11-07 15:39:55 - INFO -*****Select the modem type value******
+2024-11-07 15:39:59 - INFO -***Select the warranty start date successfully ***
+2024-11-07 15:40:03 - INFO -***Select the warranty end date successfully ***
+2024-11-07 15:40:07 - INFO -*****Select installation date ******
+2024-11-07 15:44:07 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 15:44:08 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 15:44:08 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 15:44:09 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 15:44:10 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 15:44:11 - INFO -****The entity type dropdown value successfully***
+2024-11-07 15:44:12 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 15:44:14 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 15:44:15 - INFO -***Input the description successfully***
+2024-11-07 15:44:16 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 15:44:17 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 15:44:18 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 15:44:20 - INFO -*******Select the fleet name value successfully******
+2024-11-07 15:44:21 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 15:44:22 - INFO -*******Select the depot name value successfully******
+2024-11-07 15:44:23 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 15:44:24 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 15:44:27 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 15:44:27 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 15:44:27 - INFO -******The total tickets charger initial count store successfully*****
+2024-11-07 15:44:28 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 15:44:29 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 15:44:31 - INFO -****The entity type dropdown value successfully***
+2024-11-07 15:44:32 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 15:44:33 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 15:44:34 - INFO -***Input the description successfully***
+2024-11-07 15:44:36 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 15:44:37 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 15:44:38 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 15:44:39 - INFO -*******Select the fleet name value successfully******
+2024-11-07 15:44:40 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 15:44:41 - INFO -*******Select the depot name value successfully******
+2024-11-07 15:44:43 - INFO -****Successfully click on the charge box id dropdown****
+2024-11-07 15:44:44 - INFO -*******Select the charge box id value successfully******
+2024-11-07 15:44:45 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 15:44:46 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 15:44:48 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 15:44:48 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 15:44:49 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 15:44:50 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 15:44:51 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 15:44:52 - INFO -****The entity type dropdown value successfully***
+2024-11-07 15:44:54 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 15:44:55 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 15:44:56 - INFO -***Input the description successfully***
+2024-11-07 15:44:57 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 15:44:58 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 15:44:59 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 15:45:01 - INFO -*******Select the fleet name value successfully******
+2024-11-07 15:45:02 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 15:45:03 - INFO -*******Select the depot name value successfully******
+2024-11-07 15:45:04 - INFO -****Successfully click on the vehicle licence plate number dropdown****
+2024-11-07 15:45:05 - INFO -*******Select the vehicle licence plate number value successfully******
+2024-11-07 15:45:07 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 15:45:08 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 15:45:10 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 15:45:10 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 15:45:10 - INFO -******The total tickets driver initial count store successfully*****
+2024-11-07 15:45:12 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 15:45:13 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 15:45:14 - INFO -****The entity type dropdown value driver is select successfully***
+2024-11-07 15:45:15 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 15:45:17 - INFO -****select the ticket type dropdown value is select successfully***
+2024-11-07 15:45:18 - INFO -***Input the description successfully***
+2024-11-07 15:45:19 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 15:45:20 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 15:45:21 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 15:45:23 - INFO -*******Select the fleet name value successfully******
+2024-11-07 15:45:24 - INFO -****Successfully click on the driver name dropdown****
+2024-11-07 15:45:25 - INFO -*******Select the driver name value successfully form the index position one******
+2024-11-07 15:45:26 - INFO -****Successfully click on the assignee to dropdown for driver****
+2024-11-07 15:45:27 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 15:45:29 - INFO -*****The ticket is created successfully and count are matched with is increased for driver entity****
+2024-11-07 15:45:29 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 15:45:29 - INFO -******The total tickets journey initial count store successfully*****
+2024-11-07 15:45:31 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 15:45:32 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 15:45:33 - INFO -****The entity type dropdown value journey is select successfully***
+2024-11-07 15:45:35 - INFO -****Successfully click on the journey name dropdown***
+2024-11-07 15:45:36 - INFO -****The journey name dropdown value is select successfully***
+2024-11-07 15:45:37 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 15:45:38 - INFO -****select the ticket type dropdown value is select successfully***
+2024-11-07 15:45:39 - INFO -***Input the description successfully***
+2024-11-07 15:45:41 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 15:45:42 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 15:45:43 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 15:45:44 - INFO -*******Select the depot name value successfully******
+2024-11-07 15:45:45 - INFO -****Successfully click on the assignee to dropdown for driver****
+2024-11-07 15:45:47 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 15:45:49 - INFO -*****The ticket is created successfully and count are matched with is increased for driver entity****
+2024-11-07 15:46:11 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 15:46:11 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 15:46:11 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 15:46:12 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 15:46:13 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 15:46:14 - INFO -****The entity type dropdown value successfully***
+2024-11-07 15:46:16 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 15:46:17 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 15:46:18 - INFO -***Input the description successfully***
+2024-11-07 15:46:19 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 15:46:20 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 15:46:21 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 15:46:23 - INFO -*******Select the fleet name value successfully******
+2024-11-07 15:46:24 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 15:46:25 - INFO -*******Select the depot name value successfully******
+2024-11-07 15:46:26 - INFO -****Successfully click on the charge box id dropdown****
+2024-11-07 15:46:27 - INFO -*******Select the charge box id value successfully******
+2024-11-07 15:46:29 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 15:46:30 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 15:46:32 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 15:46:53 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 15:46:53 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 15:46:53 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 15:46:55 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 15:46:58 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 15:47:01 - INFO -****The entity type dropdown value successfully***
+2024-11-07 15:47:04 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 15:47:07 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 15:47:08 - INFO -***Input the description successfully***
+2024-11-07 15:47:11 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 15:47:16 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 15:47:19 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 15:47:25 - INFO -*******Select the fleet name value successfully******
+2024-11-07 15:47:27 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 15:47:31 - INFO -*******Select the depot name value successfully******
+2024-11-07 15:47:34 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 15:47:37 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 15:47:41 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 15:47:59 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 15:47:59 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 15:47:59 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 15:48:01 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 15:48:02 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 15:48:03 - INFO -****The entity type dropdown value successfully***
+2024-11-07 15:48:04 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 15:48:05 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 15:48:07 - INFO -***Input the description successfully***
+2024-11-07 15:48:08 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 15:48:09 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 15:48:10 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 15:48:11 - INFO -*******Select the fleet name value successfully******
+2024-11-07 15:48:12 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 15:48:14 - INFO -*******Select the depot name value successfully******
+2024-11-07 15:48:15 - INFO -****Successfully click on the vehicle licence plate number dropdown****
+2024-11-07 15:48:16 - INFO -*******Select the vehicle licence plate number value successfully******
+2024-11-07 15:48:17 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 15:48:18 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 15:48:21 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 16:11:59 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 16:11:59 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 16:11:59 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 16:12:00 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 16:12:02 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 16:12:03 - INFO -****The entity type dropdown value successfully***
+2024-11-07 16:12:04 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 16:12:05 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 16:12:06 - INFO -***Input the description successfully***
+2024-11-07 16:12:08 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 16:12:09 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 16:12:10 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 16:12:11 - INFO -*******Select the fleet name value successfully******
+2024-11-07 16:12:12 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 16:12:14 - INFO -*******Select the depot name value successfully******
+2024-11-07 16:12:15 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 16:12:16 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 16:12:18 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 16:12:20 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 16:12:20 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 16:12:20 - INFO -******The total tickets charger initial count store successfully*****
+2024-11-07 16:12:21 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 16:12:23 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 16:12:24 - INFO -****The entity type dropdown value successfully***
+2024-11-07 16:12:25 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 16:12:26 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 16:12:27 - INFO -***Input the description successfully***
+2024-11-07 16:12:28 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 16:12:30 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 16:12:31 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 16:12:32 - INFO -*******Select the fleet name value successfully******
+2024-11-07 16:12:33 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 16:12:34 - INFO -*******Select the depot name value successfully******
+2024-11-07 16:12:35 - INFO -****Successfully click on the charge box id dropdown****
+2024-11-07 16:12:37 - INFO -*******Select the charge box id value successfully******
+2024-11-07 16:12:38 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 16:12:39 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 16:12:41 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 17:01:06 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 17:01:06 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 17:01:06 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 17:01:07 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 17:01:08 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 17:01:10 - INFO -****The entity type dropdown value successfully***
+2024-11-07 17:01:11 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 17:01:12 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 17:01:13 - INFO -***Input the description successfully***
+2024-11-07 17:01:14 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 17:01:15 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 17:01:16 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 17:01:17 - INFO -*******Select the fleet name value successfully******
+2024-11-07 17:01:19 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 17:01:20 - INFO -*******Select the depot name value successfully******
+2024-11-07 17:01:21 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 17:01:22 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 17:01:56 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 17:01:56 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 17:01:56 - INFO -******The total tickets charger initial count store successfully*****
+2024-11-07 17:01:57 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 17:01:58 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 17:02:00 - INFO -****The entity type dropdown value successfully***
+2024-11-07 17:02:01 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 17:02:02 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 17:02:03 - INFO -***Input the description successfully***
+2024-11-07 17:02:04 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 17:02:05 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 17:02:06 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 17:02:07 - INFO -*******Select the fleet name value successfully******
+2024-11-07 17:02:08 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 17:02:10 - INFO -*******Select the depot name value successfully******
+2024-11-07 17:02:11 - INFO -****Successfully click on the charge box id dropdown****
+2024-11-07 17:02:12 - INFO -*******Select the charge box id value successfully******
+2024-11-07 17:02:13 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 17:02:14 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 17:02:49 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 17:02:49 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 17:02:49 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-07 17:02:50 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 17:02:51 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 17:02:52 - INFO -****The entity type dropdown value successfully***
+2024-11-07 17:02:55 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 17:02:56 - INFO -****select the ticket type dropdown value successfully***
+2024-11-07 17:02:58 - INFO -***Input the description successfully***
+2024-11-07 17:02:59 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 17:03:00 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 17:03:01 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 17:03:03 - INFO -*******Select the fleet name value successfully******
+2024-11-07 17:03:04 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 17:03:05 - INFO -*******Select the depot name value successfully******
+2024-11-07 17:03:06 - INFO -****Successfully click on the vehicle licence plate number dropdown****
+2024-11-07 17:03:08 - INFO -*******Select the vehicle licence plate number value successfully******
+2024-11-07 17:03:09 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-07 17:03:11 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 17:03:45 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 17:03:45 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 17:03:45 - INFO -******The total tickets driver initial count store successfully*****
+2024-11-07 17:03:46 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 17:03:47 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 17:03:48 - INFO -****The entity type dropdown value driver is select successfully***
+2024-11-07 17:03:49 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 17:03:51 - INFO -****select the ticket type dropdown value is select successfully***
+2024-11-07 17:03:52 - INFO -***Input the description successfully***
+2024-11-07 17:03:53 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 17:03:54 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 17:03:55 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-07 17:03:56 - INFO -*******Select the fleet name value successfully******
+2024-11-07 17:03:57 - INFO -****Successfully click on the driver name dropdown****
+2024-11-07 17:03:59 - INFO -*******Select the driver name value successfully form the index position one******
+2024-11-07 17:04:00 - INFO -****Successfully click on the assignee to dropdown for driver****
+2024-11-07 17:04:01 - INFO -*******Select the assignee to name value successfully******
+2024-11-07 17:04:35 - INFO -****The user is redirected on the ticket listing page****
+2024-11-07 17:04:35 - INFO -******The total tickets initial count store successfully*****
+2024-11-07 17:04:35 - INFO -******The total tickets journey initial count store successfully*****
+2024-11-07 17:04:37 - INFO -****The user is redirected on the add ticket page***
+2024-11-07 17:04:38 - INFO -****Successfully click on the entity type dropdown***
+2024-11-07 17:04:39 - INFO -****The entity type dropdown value journey is select successfully***
+2024-11-07 17:04:40 - INFO -****Successfully click on the journey name dropdown***
+2024-11-07 17:04:41 - INFO -****The journey name dropdown value is select successfully***
+2024-11-07 17:04:43 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-07 17:04:44 - INFO -****select the ticket type dropdown value is select successfully***
+2024-11-07 17:04:45 - INFO -***Input the description successfully***
+2024-11-07 17:04:46 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-07 17:04:47 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-07 17:04:48 - INFO -****Successfully click on the depot name dropdown****
+2024-11-07 17:04:49 - INFO -*******Select the depot name value successfully******
+2024-11-07 17:04:51 - INFO -****Successfully click on the assignee to dropdown for driver****
+2024-11-07 17:04:52 - INFO -*******Select the assignee to name value successfully******
+2026-01-06 10:27:18 - INFO -****** Test Dashboard Page Verifications Started *********
+2026-01-06 10:27:18 - INFO -****** Login Completed*********
+2026-01-06 10:27:18 - INFO -****** Navigate to Dashboard Page *********
+2026-01-06 10:27:20 - INFO -****** Left Menu Tabs are Verified *********
+2026-01-06 10:27:20 - INFO -****** Verified All the Four Tiles at Top Left of the Page *********
+2026-01-06 10:30:14 - INFO -****Login successfully Completed*******
+2026-01-06 10:30:14 - INFO -*****Redirect on the accessory page****
+2026-01-06 10:30:17 - INFO -******Click on the assets menu successfully*******
+2026-01-06 10:30:18 - INFO -****Click on the accessory tab successfully***
+2026-01-06 10:30:18 - INFO -*******The hading is matched successfully******
+2026-01-06 10:30:18 - INFO -******Accessory page header verify successfully******
+2026-01-06 10:30:18 - INFO -******Accessory total count matched with the sum of the sub status*****
+2026-01-06 10:30:18 - INFO -******Table header are successfully matched******
+2026-01-06 10:30:22 - INFO -********The search key enter successfully and verify the value in table with count******
+2026-01-06 10:30:24 - INFO -******Click on the item per page dropdown*****
+2026-01-06 10:30:55 - INFO -****Login successfully Completed*******
+2026-01-06 10:30:55 - INFO -*****Redirect on the accessory page****

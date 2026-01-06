@@ -1,0 +1,898 @@
+2024-09-12 15:22:18 - INFO -****** Test Login Started *********
+2024-09-12 15:22:18 - INFO -****** Test Verifying Title Page *********
+2024-09-12 15:22:27 - INFO -********* Fleete Url is calling*******
+2024-09-12 15:22:31 - INFO -****** User Name Entered ********
+2024-09-12 15:22:35 - INFO -****** Password Entered ********
+2024-09-12 15:22:39 - INFO -******** Login Button Clicked ********
+2024-09-12 15:22:40 - INFO -****** FleetE Dashboard Page Title Verified and Login Completed Successfully *********
+2024-09-12 15:22:40 - INFO -****** Test Login Completed *********
+2024-09-17 11:42:31 - INFO -****** Test Login Started *********
+2024-09-17 11:42:31 - INFO -****** Test Verifying Title Page *********
+2024-09-17 11:42:40 - INFO -********* Fleete Url is calling*******
+2024-09-17 11:42:44 - INFO -****** User Name Entered ********
+2024-09-17 11:42:48 - INFO -****** Password Entered ********
+2024-09-17 11:42:53 - INFO -******** Login Button Clicked ********
+2024-09-17 11:42:53 - INFO -****** FleetE Dashboard Page Title Verified and Login Completed Successfully *********
+2024-09-17 11:42:53 - INFO -****** Test Login Completed *********
+2024-09-17 22:03:24 - INFO -****** Test Login Started *********
+2024-09-17 22:03:24 - INFO -****** Test Verifying Title Page *********
+2024-11-06 11:09:56 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:09:57 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:24:46 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:24:47 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:26:39 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:26:41 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:26:42 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 11:26:42 - INFO -****The store the dropdown value successfully***
+2024-11-06 11:28:17 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:28:18 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:28:19 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 11:28:19 - INFO -****The store the dropdown value successfully***
+2024-11-06 11:38:59 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:39:00 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:39:01 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 11:39:01 - INFO -****The store the dropdown value successfully***
+2024-11-06 11:39:46 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:39:47 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:39:48 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 11:39:48 - INFO -****The store the dropdown value successfully***
+2024-11-06 11:42:12 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:42:13 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:42:14 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 11:42:14 - INFO -****The store the dropdown value successfully***
+2024-11-06 11:56:14 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:56:16 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:56:17 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 11:56:17 - INFO -****The store the dropdown value successfully***
+2024-11-06 11:57:02 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 11:57:03 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 11:57:04 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:00:17 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:00:18 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:00:19 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:03:04 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:03:05 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:03:06 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:03:07 - INFO -****The store the dropdown value successfully***
+2024-11-06 12:05:37 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:05:38 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:05:39 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:05:40 - INFO -****The store the dropdown value successfully***
+2024-11-06 12:07:56 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:07:57 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:07:58 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:07:59 - INFO -****The store the dropdown value successfully***
+2024-11-06 12:10:17 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:10:18 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:10:19 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:10:20 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:10:20 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:11:12 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:11:13 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:11:15 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:11:16 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:11:17 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:11:18 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:21:43 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:21:45 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:21:46 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:21:47 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:21:48 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:21:49 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:21:50 - INFO -***Input the description successfully***
+2024-11-06 12:32:33 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:32:34 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:32:35 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:32:36 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:32:38 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:32:39 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:32:40 - INFO -***Input the description successfully***
+2024-11-06 12:35:04 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:35:05 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:35:07 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:35:08 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:35:09 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:35:10 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:35:11 - INFO -***Input the description successfully***
+2024-11-06 12:37:16 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:37:17 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:37:18 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:37:19 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:37:20 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:37:21 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:37:23 - INFO -***Input the description successfully***
+2024-11-06 12:44:27 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:44:28 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:44:29 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:44:30 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:44:32 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:44:33 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:44:34 - INFO -***Input the description successfully***
+2024-11-06 12:44:34 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 12:49:20 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:49:21 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:49:22 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:49:23 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:49:24 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:49:25 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:49:26 - INFO -***Input the description successfully***
+2024-11-06 12:49:27 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 12:49:29 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 12:55:16 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:55:18 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:55:19 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:55:20 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:55:21 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:55:22 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:55:23 - INFO -***Input the description successfully***
+2024-11-06 12:55:24 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 12:55:26 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 12:59:02 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:59:04 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:59:05 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:59:06 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:59:07 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 12:59:08 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 12:59:09 - INFO -***Input the description successfully***
+2024-11-06 12:59:10 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 12:59:11 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 12:59:12 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 12:59:12 - INFO -*******Select the depot name value random successfully******
+2024-11-06 12:59:53 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 12:59:55 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 12:59:56 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 12:59:57 - INFO -****The entity type dropdown value successfully***
+2024-11-06 12:59:59 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 13:00:00 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 13:00:01 - INFO -***Input the description successfully***
+2024-11-06 13:00:02 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 13:00:03 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 13:00:04 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 13:00:04 - INFO -*******Select the depot name value random successfully******
+2024-11-06 13:05:35 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 13:05:36 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 13:05:37 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 13:05:39 - INFO -****The entity type dropdown value successfully***
+2024-11-06 13:05:40 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 13:05:41 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 13:05:42 - INFO -***Input the description successfully***
+2024-11-06 13:05:43 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 13:05:44 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 13:05:45 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 13:05:45 - INFO -*******Select the fleet name value random successfully******
+2024-11-06 13:58:09 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 13:58:11 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 13:58:12 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 13:58:13 - INFO -****The entity type dropdown value successfully***
+2024-11-06 13:58:14 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 13:58:15 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 13:58:16 - INFO -***Input the description successfully***
+2024-11-06 13:58:17 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 13:58:18 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 13:58:20 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 13:58:21 - INFO -*******Select the fleet name value random successfully******
+2024-11-06 13:58:22 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 13:58:22 - INFO -*******Select the depot name value random successfully******
+2024-11-06 14:08:00 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:08:01 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:08:02 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:08:03 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:08:05 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:08:06 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:08:07 - INFO -***Input the description successfully***
+2024-11-06 14:08:08 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:08:09 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:08:10 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:08:11 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:08:12 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 14:08:12 - INFO -*******Select the depot name value successfully******
+2024-11-06 14:09:01 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:09:02 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:09:03 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:09:04 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:09:05 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:09:07 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:09:08 - INFO -***Input the description successfully***
+2024-11-06 14:09:09 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:09:10 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:09:11 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:09:12 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:09:13 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 14:09:14 - INFO -*******Select the depot name value successfully******
+2024-11-06 14:09:16 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 14:09:17 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 14:12:31 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:12:32 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:12:33 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:12:34 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:12:36 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:12:37 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:12:38 - INFO -***Input the description successfully***
+2024-11-06 14:12:39 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:12:40 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:12:41 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:12:42 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:12:43 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 14:12:44 - INFO -*******Select the depot name value successfully******
+2024-11-06 14:12:46 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 14:12:46 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 14:13:40 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:13:41 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:13:43 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:13:44 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:13:45 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:13:46 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:13:47 - INFO -***Input the description successfully***
+2024-11-06 14:13:48 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:13:49 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:13:50 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:13:52 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:19:49 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:19:49 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:19:50 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:19:52 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:19:53 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:19:54 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:19:55 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:19:56 - INFO -***Input the description successfully***
+2024-11-06 14:19:57 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:19:58 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:19:59 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:20:01 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:31:25 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:31:25 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:31:26 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:31:27 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:31:29 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:31:30 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:31:31 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:31:32 - INFO -***Input the description successfully***
+2024-11-06 14:31:33 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:31:34 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:31:35 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:31:37 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:31:38 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 14:31:39 - INFO -*******Select the depot name value successfully******
+2024-11-06 14:31:40 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 14:31:41 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 14:34:51 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:34:51 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:34:52 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:34:53 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:34:54 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:34:55 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:34:57 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:34:58 - INFO -***Input the description successfully***
+2024-11-06 14:34:59 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:35:00 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:35:01 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:35:02 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:35:03 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 14:35:04 - INFO -*******Select the depot name value successfully******
+2024-11-06 14:35:05 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 14:35:07 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 14:38:45 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:38:45 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:39:31 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:39:31 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:40:32 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:40:32 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:41:02 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:41:02 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:41:35 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:41:35 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:42:08 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:42:08 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:43:16 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:43:16 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:47:45 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:47:45 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:51:12 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:51:12 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:51:13 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:51:14 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:51:16 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:51:17 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:51:18 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:51:19 - INFO -***Input the description successfully***
+2024-11-06 14:51:20 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:51:21 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:51:22 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:51:23 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:51:24 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 14:51:26 - INFO -*******Select the depot name value successfully******
+2024-11-06 14:51:27 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 14:51:28 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 14:53:11 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:53:11 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:53:12 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:53:13 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:53:15 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:53:16 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:53:17 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:53:18 - INFO -***Input the description successfully***
+2024-11-06 14:53:19 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:53:20 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:53:21 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:53:23 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:53:24 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 14:53:25 - INFO -*******Select the depot name value successfully******
+2024-11-06 14:53:26 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 14:53:27 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 14:54:59 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 14:55:00 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 14:55:01 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 14:55:02 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 14:55:03 - INFO -****The entity type dropdown value successfully***
+2024-11-06 14:55:04 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 14:55:05 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 14:55:06 - INFO -***Input the description successfully***
+2024-11-06 14:55:07 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 14:55:08 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 14:55:10 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 14:55:11 - INFO -*******Select the fleet name value successfully******
+2024-11-06 14:55:12 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 14:55:13 - INFO -*******Select the depot name value successfully******
+2024-11-06 14:55:14 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 14:55:15 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 15:01:04 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 15:01:04 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 15:01:05 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 15:01:06 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 15:01:07 - INFO -****The entity type dropdown value successfully***
+2024-11-06 15:01:08 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 15:01:09 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 15:01:11 - INFO -***Input the description successfully***
+2024-11-06 15:01:12 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 15:01:13 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 15:01:14 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 15:01:15 - INFO -*******Select the fleet name value successfully******
+2024-11-06 15:01:16 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 15:01:17 - INFO -*******Select the depot name value successfully******
+2024-11-06 15:01:18 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 15:01:20 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 15:01:22 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-06 15:05:54 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 15:05:54 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 15:05:55 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 15:05:56 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 15:05:57 - INFO -****The entity type dropdown value successfully***
+2024-11-06 15:05:58 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 15:05:59 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 15:06:00 - INFO -***Input the description successfully***
+2024-11-06 15:06:02 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 15:06:03 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 15:06:04 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 15:06:05 - INFO -*******Select the fleet name value successfully******
+2024-11-06 15:06:06 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 15:06:07 - INFO -*******Select the depot name value successfully******
+2024-11-06 15:06:08 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 15:06:09 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 15:06:12 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-06 15:09:31 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 15:09:31 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 15:09:32 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 15:09:33 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 15:09:34 - INFO -****The entity type dropdown value successfully***
+2024-11-06 15:09:35 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 15:09:36 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 15:09:37 - INFO -***Input the description successfully***
+2024-11-06 15:09:38 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 15:09:40 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 15:09:41 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 15:09:42 - INFO -*******Select the fleet name value successfully******
+2024-11-06 15:09:43 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 15:09:44 - INFO -*******Select the depot name value successfully******
+2024-11-06 15:09:45 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 15:09:46 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 15:09:48 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-06 15:12:17 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 15:12:17 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 15:12:19 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 15:12:20 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 15:12:21 - INFO -****The entity type dropdown value successfully***
+2024-11-06 15:12:22 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 15:12:23 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 15:12:24 - INFO -***Input the description successfully***
+2024-11-06 15:12:25 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 15:12:26 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 15:12:27 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 15:12:29 - INFO -*******Select the fleet name value successfully******
+2024-11-06 15:12:30 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 15:12:31 - INFO -*******Select the depot name value successfully******
+2024-11-06 15:12:32 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 15:12:33 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 15:12:35 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-06 15:14:34 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 15:14:34 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 15:14:35 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 15:14:37 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 15:14:38 - INFO -****The entity type dropdown value successfully***
+2024-11-06 15:14:39 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 15:14:40 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 15:14:41 - INFO -***Input the description successfully***
+2024-11-06 15:14:42 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 15:14:43 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 15:14:44 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 15:14:46 - INFO -*******Select the fleet name value successfully******
+2024-11-06 15:14:47 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 15:14:48 - INFO -*******Select the depot name value successfully******
+2024-11-06 15:14:49 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 15:14:50 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 15:14:52 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-06 15:35:33 - INFO -****The user is redirected on the ticket listing page****
+2024-11-06 15:35:33 - INFO -******The total tickets initial count store successfully*****
+2024-11-06 15:35:33 - INFO -******The total tickets depots initial count store successfully*****
+2024-11-06 15:35:35 - INFO -****The user is redirected on the add ticket page***
+2024-11-06 15:35:36 - INFO -****Successfully click on the entity type dropdown***
+2024-11-06 15:35:37 - INFO -****The entity type dropdown value successfully***
+2024-11-06 15:35:38 - INFO -****Successfully click on the ticket type dropdown***
+2024-11-06 15:35:39 - INFO -****select the ticket type dropdown value successfully***
+2024-11-06 15:35:40 - INFO -***Input the description successfully***
+2024-11-06 15:35:41 - INFO -****Successfully click on the ticket priority dropdown****
+2024-11-06 15:35:42 - INFO -*******Select the ticket priority value urgent successfully******
+2024-11-06 15:35:43 - INFO -****Successfully click on the fleet name dropdown****
+2024-11-06 15:35:44 - INFO -*******Select the fleet name value successfully******
+2024-11-06 15:35:46 - INFO -****Successfully click on the depot name dropdown****
+2024-11-06 15:35:47 - INFO -*******Select the depot name value successfully******
+2024-11-06 15:35:48 - INFO -****Successfully click on the assignee to dropdown****
+2024-11-06 15:35:49 - INFO -*******Select the assignee to name value successfully******
+2024-11-06 15:35:51 - INFO -*****The ticket is created successfully and count are matched with is increased ****
+2024-11-07 17:12:10 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:15:14 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:15:46 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:15:54 - INFO -Selecting Depot Name.
+2024-11-07 17:15:57 - INFO -Entering First Name.
+2024-11-07 17:24:16 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:24:24 - INFO -Selecting Depot Name.
+2024-11-07 17:26:56 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:27:04 - INFO -Selecting Depot Name.
+2024-11-07 17:27:07 - INFO -Entering First Name.
+2024-11-07 17:27:24 - INFO -Entering Last Name.
+2024-11-07 17:27:25 - INFO -Entering Email: decentford751@mailinator.com.
+2024-11-07 17:27:26 - INFO -Entering Mobile Number: +918337599368.
+2024-11-07 17:27:29 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-07 17:27:42 - INFO -Depot Admin Added Successfully
+2024-11-07 17:27:55 - INFO -Logging into mailinator with address decentford751@mailinator.com.
+2024-11-07 17:29:26 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:29:34 - INFO -Selecting Depot Name.
+2024-11-07 17:29:38 - INFO -Entering First Name.
+2024-11-07 17:30:31 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:30:39 - INFO -Selecting Depot Name.
+2024-11-07 17:34:10 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:34:18 - INFO -Selecting Depot Name.
+2024-11-07 17:34:30 - INFO -Entering First Name.
+2024-11-07 17:35:52 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:36:00 - INFO -Selecting Depot Name.
+2024-11-07 17:37:15 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:37:22 - INFO -Selecting Depot Name.
+2024-11-07 17:37:26 - INFO -Entering First Name.
+2024-11-07 17:37:29 - INFO -Entering Last Name.
+2024-11-07 17:37:30 - INFO -Entering Email: decentfordacb@mailinator.com.
+2024-11-07 17:37:31 - INFO -Entering Mobile Number: +919450231436.
+2024-11-07 17:37:33 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-07 17:37:46 - INFO -Depot Admin Added Successfully
+2024-11-07 17:37:58 - INFO -Logging into mailinator with address decentfordacb@mailinator.com.
+2024-11-07 17:46:15 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:46:24 - INFO -Selecting Depot Name.
+2024-11-07 17:46:27 - INFO -Entering First Name.
+2024-11-07 17:46:30 - INFO -Entering Last Name.
+2024-11-07 17:46:31 - INFO -Entering Mobile Number: +917120159075.
+2024-11-07 17:46:34 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-07 17:47:26 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:47:34 - INFO -Selecting Depot Name.
+2024-11-07 17:47:37 - INFO -Entering First Name.
+2024-11-07 17:47:40 - INFO -Entering Last Name.
+2024-11-07 17:47:41 - INFO -Entering Email: decentford267@mailinator.com.
+2024-11-07 17:47:42 - INFO -Entering Mobile Number: +918618615892.
+2024-11-07 17:47:44 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-07 17:47:57 - INFO -Depot Admin Added Successfully
+2024-11-07 17:49:22 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:49:29 - INFO -Selecting Depot Name.
+2024-11-07 17:49:33 - INFO -Entering First Name.
+2024-11-07 17:49:36 - INFO -Entering Last Name.
+2024-11-07 17:49:37 - INFO -Entering Email: decentford5a2@mailinator.com.
+2024-11-07 17:49:38 - INFO -Entering Mobile Number: +919771936575.
+2024-11-07 17:49:40 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-07 17:49:53 - INFO -Depot Admin Added Successfully
+2024-11-07 17:54:02 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:54:11 - INFO -Selecting Depot Name.
+2024-11-07 17:54:14 - INFO -Entering First Name.
+2024-11-07 17:54:17 - INFO -Entering Last Name.
+2024-11-07 17:54:18 - INFO -Entering Email: decentford61a@mailinator.com.
+2024-11-07 17:54:19 - INFO -Entering Mobile Number: +918092290060.
+2024-11-07 17:54:22 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-07 17:54:34 - INFO -Depot Admin Added Successfully
+2024-11-07 17:56:18 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:56:25 - INFO -Selecting Depot Name.
+2024-11-07 17:56:29 - INFO -Entering First Name.
+2024-11-07 17:56:32 - INFO -Entering Last Name.
+2024-11-07 17:56:33 - INFO -Entering Email: decentfordfc2@mailinator.com.
+2024-11-07 17:56:34 - INFO -Entering Mobile Number: +918027171436.
+2024-11-07 17:56:36 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-07 17:56:49 - INFO -Depot Admin Added Successfully
+2024-11-07 17:59:02 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-07 17:59:11 - INFO -Selecting Depot Name.
+2024-11-07 17:59:14 - INFO -Entering First Name.
+2024-11-07 17:59:17 - INFO -Entering Last Name.
+2024-11-07 17:59:19 - INFO -Entering Email: decentfordb8b@mailinator.com.
+2024-11-07 17:59:20 - INFO -Entering Mobile Number: +918181762222.
+2024-11-07 17:59:22 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-07 17:59:35 - INFO -Depot Admin Added Successfully
+2024-11-08 09:24:15 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 09:24:26 - INFO -Selecting Depot Name.
+2024-11-08 09:24:29 - INFO -Entering First Name.
+2024-11-08 09:24:32 - INFO -Entering Last Name.
+2024-11-08 09:24:33 - INFO -Entering Email: decentford1dd@mailinator.com.
+2024-11-08 09:24:34 - INFO -Entering Mobile Number: +917022814320.
+2024-11-08 09:24:37 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 09:24:50 - INFO -Depot Admin Added Successfully
+2024-11-08 09:30:26 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 09:30:34 - INFO -Selecting Depot Name.
+2024-11-08 09:30:37 - INFO -Entering First Name.
+2024-11-08 09:30:41 - INFO -Entering Last Name.
+2024-11-08 09:30:42 - INFO -Entering Email: decentford964@mailinator.com.
+2024-11-08 09:30:43 - INFO -Entering Mobile Number: +918306876209.
+2024-11-08 09:30:45 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 09:30:58 - INFO -Depot Admin Added Successfully
+2024-11-08 09:41:56 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 09:42:04 - INFO -Selecting Depot Name.
+2024-11-08 09:42:08 - INFO -Entering First Name.
+2024-11-08 09:42:11 - INFO -Entering Last Name.
+2024-11-08 09:42:12 - INFO -Entering Email: decentfordebf@mailinator.com.
+2024-11-08 09:42:13 - INFO -Entering Mobile Number: +917355378463.
+2024-11-08 09:42:15 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 09:42:28 - INFO -Depot Admin Added Successfully
+2024-11-08 09:46:52 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 09:47:01 - INFO -Selecting Depot Name.
+2024-11-08 09:47:05 - INFO -Entering First Name.
+2024-11-08 09:47:08 - INFO -Entering Last Name.
+2024-11-08 09:47:09 - INFO -Entering Email: decentford758@mailinator.com.
+2024-11-08 09:47:10 - INFO -Entering Mobile Number: +918710456129.
+2024-11-08 09:47:12 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 09:47:25 - INFO -Depot Admin Added Successfully
+2024-11-08 09:51:35 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 09:51:43 - INFO -Selecting Depot Name.
+2024-11-08 09:51:46 - INFO -Entering First Name.
+2024-11-08 09:51:49 - INFO -Entering Last Name.
+2024-11-08 09:51:51 - INFO -Entering Email: decentford176@mailinator.com.
+2024-11-08 09:51:52 - INFO -Entering Mobile Number: +917227857379.
+2024-11-08 09:51:54 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 09:52:07 - INFO -Depot Admin Added Successfully
+2024-11-08 09:54:01 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 09:54:09 - INFO -Selecting Depot Name.
+2024-11-08 09:54:12 - INFO -Entering First Name.
+2024-11-08 09:54:15 - INFO -Entering Last Name.
+2024-11-08 09:54:17 - INFO -Entering Email: decentford3f0@mailinator.com.
+2024-11-08 09:54:18 - INFO -Entering Mobile Number: +919884762888.
+2024-11-08 09:54:20 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 09:54:33 - INFO -Depot Admin Added Successfully
+2024-11-08 10:00:10 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:00:18 - INFO -Selecting Depot Name.
+2024-11-08 10:00:21 - INFO -Entering First Name.
+2024-11-08 10:00:24 - INFO -Entering Last Name.
+2024-11-08 10:00:25 - INFO -Entering Email: decentford4c6@mailinator.com.
+2024-11-08 10:00:27 - INFO -Entering Mobile Number: +919576921072.
+2024-11-08 10:00:29 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:00:42 - INFO -Depot Admin Added Successfully
+2024-11-08 10:10:58 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:11:07 - INFO -Selecting Depot Name.
+2024-11-08 10:11:11 - INFO -Entering First Name.
+2024-11-08 10:11:14 - INFO -Entering Last Name.
+2024-11-08 10:11:15 - INFO -Entering Email: decentford267@mailinator.com.
+2024-11-08 10:11:16 - INFO -Entering Mobile Number: +917839473831.
+2024-11-08 10:11:18 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:11:31 - INFO -Depot Admin Added Successfully
+2024-11-08 10:12:43 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:12:52 - INFO -Selecting Depot Name.
+2024-11-08 10:12:55 - INFO -Entering First Name.
+2024-11-08 10:12:59 - INFO -Entering Last Name.
+2024-11-08 10:13:00 - INFO -Entering Email: decentforda39@mailinator.com.
+2024-11-08 10:13:01 - INFO -Entering Mobile Number: +919212435017.
+2024-11-08 10:13:03 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:13:17 - INFO -Depot Admin Added Successfully
+2024-11-08 10:14:50 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:16:05 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:16:13 - INFO -Selecting Depot Name.
+2024-11-08 10:16:16 - INFO -Entering First Name.
+2024-11-08 10:16:20 - INFO -Entering Last Name.
+2024-11-08 10:16:21 - INFO -Entering Email: decentford876@mailinator.com.
+2024-11-08 10:16:22 - INFO -Entering Mobile Number: +919210864281.
+2024-11-08 10:16:24 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:16:37 - INFO -Depot Admin Added Successfully
+2024-11-08 10:20:28 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:20:36 - INFO -Selecting Depot Name.
+2024-11-08 10:20:40 - INFO -Entering First Name.
+2024-11-08 10:20:43 - INFO -Entering Last Name.
+2024-11-08 10:20:44 - INFO -Entering Email: decentford1c8@mailinator.com.
+2024-11-08 10:20:45 - INFO -Entering Mobile Number: +917605516950.
+2024-11-08 10:20:47 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:21:00 - INFO -Depot Admin Added Successfully
+2024-11-08 10:29:45 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:29:53 - INFO -Selecting Depot Name.
+2024-11-08 10:29:57 - INFO -Entering First Name.
+2024-11-08 10:30:00 - INFO -Entering Last Name.
+2024-11-08 10:30:01 - INFO -Entering Email: decentford857@mailinator.com.
+2024-11-08 10:30:02 - INFO -Entering Mobile Number: +917787934018.
+2024-11-08 10:30:04 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:30:17 - INFO -Depot Admin Added Successfully
+2024-11-08 10:35:45 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:35:53 - INFO -Selecting Depot Name.
+2024-11-08 10:35:56 - INFO -Entering First Name.
+2024-11-08 10:35:59 - INFO -Entering Last Name.
+2024-11-08 10:36:01 - INFO -Entering Email: decentford086@mailinator.com.
+2024-11-08 10:36:02 - INFO -Entering Mobile Number: +919600540416.
+2024-11-08 10:36:04 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:36:17 - INFO -Depot Admin Added Successfully
+2024-11-08 10:41:39 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:41:47 - INFO -Selecting Depot Name.
+2024-11-08 10:41:50 - INFO -Entering First Name.
+2024-11-08 10:41:53 - INFO -Entering Last Name.
+2024-11-08 10:41:54 - INFO -Entering Email: decentford890@mailinator.com.
+2024-11-08 10:41:55 - INFO -Entering Mobile Number: +919829525564.
+2024-11-08 10:41:58 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:42:11 - INFO -Depot Admin Added Successfully
+2024-11-08 10:45:39 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:45:47 - INFO -Selecting Depot Name.
+2024-11-08 10:45:50 - INFO -Entering First Name.
+2024-11-08 10:45:54 - INFO -Entering Last Name.
+2024-11-08 10:45:55 - INFO -Entering Email: decentford60d@mailinator.com.
+2024-11-08 10:45:56 - INFO -Entering Mobile Number: +918768525955.
+2024-11-08 10:45:58 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:46:11 - INFO -Depot Admin Added Successfully
+2024-11-08 10:58:09 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 10:58:18 - INFO -Selecting Depot Name.
+2024-11-08 10:58:21 - INFO -Entering First Name.
+2024-11-08 10:58:24 - INFO -Entering Last Name.
+2024-11-08 10:58:25 - INFO -Entering Email: decentford555@mailinator.com.
+2024-11-08 10:58:26 - INFO -Entering Mobile Number: +917956139340.
+2024-11-08 10:58:29 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 10:58:41 - INFO -Depot Admin Added Successfully
+2024-11-08 11:02:00 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:02:08 - INFO -Selecting Depot Name.
+2024-11-08 11:02:12 - INFO -Entering First Name.
+2024-11-08 11:02:15 - INFO -Entering Last Name.
+2024-11-08 11:02:16 - INFO -Entering Email: decentfordcf1@mailinator.com.
+2024-11-08 11:02:17 - INFO -Entering Mobile Number: +919416171359.
+2024-11-08 11:02:19 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:02:32 - INFO -Depot Admin Added Successfully
+2024-11-08 11:04:45 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:04:53 - INFO -Selecting Depot Name.
+2024-11-08 11:04:56 - INFO -Entering First Name.
+2024-11-08 11:05:00 - INFO -Entering Last Name.
+2024-11-08 11:05:01 - INFO -Entering Email: decentford2cd@mailinator.com.
+2024-11-08 11:05:02 - INFO -Entering Mobile Number: +918978647399.
+2024-11-08 11:05:04 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:05:17 - INFO -Depot Admin Added Successfully
+2024-11-08 11:08:15 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:08:23 - INFO -Selecting Depot Name.
+2024-11-08 11:08:26 - INFO -Entering First Name.
+2024-11-08 11:08:29 - INFO -Entering Last Name.
+2024-11-08 11:08:30 - INFO -Entering Email: decentford8f3@mailinator.com.
+2024-11-08 11:08:31 - INFO -Entering Mobile Number: +917791563017.
+2024-11-08 11:08:34 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:08:47 - INFO -Depot Admin Added Successfully
+2024-11-08 11:09:45 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:09:53 - INFO -Selecting Depot Name.
+2024-11-08 11:09:57 - INFO -Entering First Name.
+2024-11-08 11:10:00 - INFO -Entering Last Name.
+2024-11-08 11:10:01 - INFO -Entering Email: decentford981@mailinator.com.
+2024-11-08 11:10:02 - INFO -Entering Mobile Number: +918795742907.
+2024-11-08 11:10:04 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:10:17 - INFO -Depot Admin Added Successfully
+2024-11-08 11:30:36 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:30:44 - INFO -Selecting Depot Name.
+2024-11-08 11:30:48 - INFO -Entering First Name.
+2024-11-08 11:30:51 - INFO -Entering Last Name.
+2024-11-08 11:30:52 - INFO -Entering Email: decentford75a@mailinator.com.
+2024-11-08 11:30:53 - INFO -Entering Mobile Number: +917547250234.
+2024-11-08 11:30:55 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:31:08 - INFO -Depot Admin Added Successfully
+2024-11-08 11:36:03 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:36:11 - INFO -Selecting Depot Name.
+2024-11-08 11:36:15 - INFO -Entering First Name.
+2024-11-08 11:36:18 - INFO -Entering Last Name.
+2024-11-08 11:36:19 - INFO -Entering Email: decentford6e4@mailinator.com.
+2024-11-08 11:36:20 - INFO -Entering Mobile Number: +919224368224.
+2024-11-08 11:36:22 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:36:35 - INFO -Depot Admin Added Successfully
+2024-11-08 11:38:54 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:39:03 - INFO -Selecting Depot Name.
+2024-11-08 11:39:07 - INFO -Entering First Name.
+2024-11-08 11:39:10 - INFO -Entering Last Name.
+2024-11-08 11:39:11 - INFO -Entering Email: decentford760@mailinator.com.
+2024-11-08 11:39:12 - INFO -Entering Mobile Number: +919570115487.
+2024-11-08 11:39:14 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:39:27 - INFO -Depot Admin Added Successfully
+2024-11-08 11:43:08 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:43:16 - INFO -Selecting Depot Name.
+2024-11-08 11:43:19 - INFO -Entering First Name.
+2024-11-08 11:43:22 - INFO -Entering Last Name.
+2024-11-08 11:43:23 - INFO -Entering Email: decentford70b@mailinator.com.
+2024-11-08 11:43:24 - INFO -Entering Mobile Number: +918642856460.
+2024-11-08 11:43:27 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:43:39 - INFO -Depot Admin Added Successfully
+2024-11-08 11:48:36 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:48:44 - INFO -Selecting Depot Name.
+2024-11-08 11:48:48 - INFO -Entering First Name.
+2024-11-08 11:48:51 - INFO -Entering Last Name.
+2024-11-08 11:48:52 - INFO -Entering Email: decentfordcbc@mailinator.com.
+2024-11-08 11:48:53 - INFO -Entering Mobile Number: +918719635852.
+2024-11-08 11:48:55 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:49:08 - INFO -Depot Admin Added Successfully
+2024-11-08 11:56:29 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 11:56:38 - INFO -Selecting Depot Name.
+2024-11-08 11:56:41 - INFO -Entering First Name.
+2024-11-08 11:56:44 - INFO -Entering Last Name.
+2024-11-08 11:56:45 - INFO -Entering Email: decentfordabf@mailinator.com.
+2024-11-08 11:56:46 - INFO -Entering Mobile Number: +918015975962.
+2024-11-08 11:56:49 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 11:57:01 - INFO -Depot Admin Added Successfully
+2024-11-08 12:00:23 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 12:00:31 - INFO -Selecting Depot Name.
+2024-11-08 12:00:35 - INFO -Entering First Name.
+2024-11-08 12:00:38 - INFO -Entering Last Name.
+2024-11-08 12:00:39 - INFO -Entering Email: decentforddff@mailinator.com.
+2024-11-08 12:00:40 - INFO -Entering Mobile Number: +919826197198.
+2024-11-08 12:00:42 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 12:00:55 - INFO -Depot Admin Added Successfully
+2024-11-08 12:05:15 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 12:05:23 - INFO -Selecting Depot Name.
+2024-11-08 12:05:27 - INFO -Entering First Name.
+2024-11-08 12:05:30 - INFO -Entering Last Name.
+2024-11-08 12:05:31 - INFO -Entering Email: decentford45c@mailinator.com.
+2024-11-08 12:05:32 - INFO -Entering Mobile Number: +918427319707.
+2024-11-08 12:05:34 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 12:05:47 - INFO -Depot Admin Added Successfully
+2024-11-08 12:08:47 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 12:08:55 - INFO -Selecting Depot Name.
+2024-11-08 12:08:58 - INFO -Entering First Name.
+2024-11-08 12:09:02 - INFO -Entering Last Name.
+2024-11-08 12:09:03 - INFO -Entering Email: decentforddd4@mailinator.com.
+2024-11-08 12:09:04 - INFO -Entering Mobile Number: +917746644542.
+2024-11-08 12:09:06 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 12:09:19 - INFO -Depot Admin Added Successfully
+2024-11-08 12:12:58 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 12:13:06 - INFO -Selecting Depot Name.
+2024-11-08 12:13:10 - INFO -Entering First Name.
+2024-11-08 12:13:13 - INFO -Entering Last Name.
+2024-11-08 12:13:14 - INFO -Entering Email: decentford11d@mailinator.com.
+2024-11-08 12:13:15 - INFO -Entering Mobile Number: +917820516404.
+2024-11-08 12:13:17 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 12:13:30 - INFO -Depot Admin Added Successfully
+2024-11-08 12:25:27 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 12:25:36 - INFO -Selecting Depot Name.
+2024-11-08 12:25:39 - INFO -Entering First Name.
+2024-11-08 12:25:42 - INFO -Entering Last Name.
+2024-11-08 12:25:43 - INFO -Entering Email: decentford793@mailinator.com.
+2024-11-08 12:25:44 - INFO -Entering Mobile Number: +919357592463.
+2024-11-08 12:25:46 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 12:25:59 - INFO -Depot Admin Added Successfully
+2024-11-08 12:33:50 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 12:33:58 - INFO -Selecting Depot Name.
+2024-11-08 12:34:01 - INFO -Entering First Name.
+2024-11-08 12:34:04 - INFO -Entering Last Name.
+2024-11-08 12:34:05 - INFO -Entering Email: decentfordcd9@mailinator.com.
+2024-11-08 12:34:06 - INFO -Entering Mobile Number: +917467918942.
+2024-11-08 12:34:09 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 12:34:21 - INFO -Depot Admin Added Successfully
+2024-11-08 12:50:59 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 12:51:07 - INFO -Selecting Depot Name.
+2024-11-08 12:51:10 - INFO -Entering First Name.
+2024-11-08 12:51:13 - INFO -Entering Last Name.
+2024-11-08 12:51:15 - INFO -Entering Email: decentfordf9d@mailinator.com.
+2024-11-08 12:51:16 - INFO -Entering Mobile Number: +919939766761.
+2024-11-08 12:51:18 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 12:51:31 - INFO -Depot Admin Added Successfully
+2024-11-08 13:00:27 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 13:00:36 - INFO -Selecting Depot Name.
+2024-11-08 13:00:40 - INFO -Entering First Name.
+2024-11-08 13:00:43 - INFO -Entering Last Name.
+2024-11-08 13:00:44 - INFO -Entering Email: decentfordcc1@mailinator.com.
+2024-11-08 13:00:45 - INFO -Entering Mobile Number: +919417474568.
+2024-11-08 13:00:47 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 13:01:00 - INFO -Depot Admin Added Successfully
+2024-11-08 13:49:16 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 13:49:25 - INFO -Selecting Depot Name.
+2024-11-08 13:49:29 - INFO -Entering First Name.
+2024-11-08 13:49:32 - INFO -Entering Last Name.
+2024-11-08 13:49:33 - INFO -Entering Email: decentford2d9@mailinator.com.
+2024-11-08 13:49:34 - INFO -Entering Mobile Number: +919961441611.
+2024-11-08 13:49:36 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 13:49:50 - INFO -Depot Admin Added Successfully
+2024-11-08 13:55:28 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 13:55:36 - INFO -Selecting Depot Name.
+2024-11-08 13:55:40 - INFO -Entering First Name.
+2024-11-08 13:55:43 - INFO -Entering Last Name.
+2024-11-08 13:55:44 - INFO -Entering Email: decentforde27@mailinator.com.
+2024-11-08 13:55:45 - INFO -Entering Mobile Number: +919654932073.
+2024-11-08 13:55:47 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 13:56:01 - INFO -Depot Admin Added Successfully
+2024-11-08 13:57:52 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 13:58:02 - INFO -Selecting Depot Name.
+2024-11-08 13:58:05 - INFO -Entering First Name.
+2024-11-08 13:58:09 - INFO -Entering Last Name.
+2024-11-08 13:58:10 - INFO -Entering Email: decentfordf25@mailinator.com.
+2024-11-08 13:58:11 - INFO -Entering Mobile Number: +918997779806.
+2024-11-08 13:58:13 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 13:58:27 - INFO -Depot Admin Added Successfully
+2024-11-08 14:00:57 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 14:01:05 - INFO -Selecting Depot Name.
+2024-11-08 14:01:09 - INFO -Entering First Name.
+2024-11-08 14:01:12 - INFO -Entering Last Name.
+2024-11-08 14:01:13 - INFO -Entering Email: decentford3db@mailinator.com.
+2024-11-08 14:01:14 - INFO -Entering Mobile Number: +918661119013.
+2024-11-08 14:01:16 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 14:01:30 - INFO -Depot Admin Added Successfully
+2024-11-08 14:08:37 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 14:08:46 - INFO -Selecting Depot Name.
+2024-11-08 14:08:49 - INFO -Entering First Name.
+2024-11-08 14:08:52 - INFO -Entering Last Name.
+2024-11-08 14:08:53 - INFO -Entering Email: decentfordc77@mailinator.com.
+2024-11-08 14:08:54 - INFO -Entering Mobile Number: +917260826218.
+2024-11-08 14:08:56 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 14:09:09 - INFO -Depot Admin Added Successfully
+2024-11-08 14:12:04 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 14:12:13 - INFO -Selecting Depot Name.
+2024-11-08 14:12:16 - INFO -Entering First Name.
+2024-11-08 14:12:19 - INFO -Entering Last Name.
+2024-11-08 14:12:20 - INFO -Entering Email: decentford880@mailinator.com.
+2024-11-08 14:12:21 - INFO -Entering Mobile Number: +917726803424.
+2024-11-08 14:12:24 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 14:12:37 - INFO -Depot Admin Added Successfully
+2024-11-08 14:33:42 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 14:33:50 - INFO -Selecting Depot Name.
+2024-11-08 14:33:54 - INFO -Entering First Name.
+2024-11-08 14:33:58 - INFO -Entering Last Name.
+2024-11-08 14:33:59 - INFO -Entering Email: decentford19b@mailinator.com.
+2024-11-08 14:34:00 - INFO -Entering Mobile Number: +918302061223.
+2024-11-08 14:34:02 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 14:34:16 - INFO -Depot Admin Added Successfully
+2024-11-08 14:35:39 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 14:35:47 - INFO -Selecting Depot Name.
+2024-11-08 14:35:51 - INFO -Entering First Name.
+2024-11-08 14:35:54 - INFO -Entering Last Name.
+2024-11-08 14:35:55 - INFO -Entering Email: decentford2dc@mailinator.com.
+2024-11-08 14:35:56 - INFO -Entering Mobile Number: +917012385147.
+2024-11-08 14:35:59 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 14:36:12 - INFO -Depot Admin Added Successfully
+2024-11-08 14:38:05 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 14:38:14 - INFO -Selecting Depot Name.
+2024-11-08 14:38:17 - INFO -Entering First Name.
+2024-11-08 14:38:20 - INFO -Entering Last Name.
+2024-11-08 14:38:22 - INFO -Entering Email: decentford6d7@mailinator.com.
+2024-11-08 14:38:23 - INFO -Entering Mobile Number: +918626025484.
+2024-11-08 14:38:25 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 14:38:38 - INFO -Depot Admin Added Successfully
+2024-11-08 14:44:36 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 14:44:44 - INFO -Selecting Depot Name.
+2024-11-08 14:44:48 - INFO -Entering First Name.
+2024-11-08 14:44:51 - INFO -Entering Last Name.
+2024-11-08 14:44:52 - INFO -Entering Email: decentford73e@mailinator.com.
+2024-11-08 14:44:53 - INFO -Entering Mobile Number: +918544817135.
+2024-11-08 14:44:55 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 14:45:08 - INFO -Depot Admin Added Successfully
+2024-11-08 15:13:39 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 15:13:48 - INFO -Selecting Depot Name.
+2024-11-08 15:13:52 - INFO -Entering First Name.
+2024-11-08 15:13:55 - INFO -Entering Last Name.
+2024-11-08 15:13:56 - INFO -Entering Email: decentford770@mailinator.com.
+2024-11-08 15:13:57 - INFO -Entering Mobile Number: +918315817760.
+2024-11-08 15:13:59 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 15:14:13 - INFO -Depot Admin Added Successfully
+2024-11-08 17:09:03 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-08 17:09:12 - INFO -Selecting Depot Name.
+2024-11-08 17:09:15 - INFO -Entering First Name.
+2024-11-08 17:09:19 - INFO -Entering Last Name.
+2024-11-08 17:09:20 - INFO -Entering Email: decentford154@mailinator.com.
+2024-11-08 17:09:21 - INFO -Entering Mobile Number: +918873059629.
+2024-11-08 17:09:23 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-08 17:09:36 - INFO -Depot Admin Added Successfully
+2024-11-11 12:46:18 - INFO -Clicking 'Add Depot Admin' button.
+2024-11-11 12:46:26 - INFO -Selecting Depot Name.
+2024-11-11 12:46:30 - INFO -Entering First Name.
+2024-11-11 12:46:33 - INFO -Entering Last Name.
+2024-11-11 12:46:34 - INFO -Entering Email: decentfordab8@mailinator.com.
+2024-11-11 12:46:35 - INFO -Entering Mobile Number: +919910725076.
+2024-11-11 12:46:37 - INFO -Entering Address: NPX Tower, Sector 153, New Delhi.
+2024-11-11 12:46:50 - INFO -Depot Admin Added Successfully
