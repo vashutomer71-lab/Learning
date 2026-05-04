@@ -17,8 +17,8 @@ from pathlib import Path
 
 # Screenshots folder ensure karo
 os.makedirs("screenshots", exist_ok=True)
-print("🔑 SSH KEY PATH:", ReadConfig.get_ssh_key())
-print("🔁 SSH KEY EXISTS:", os.path.exists(ReadConfig.get_ssh_key()))
+# print("🔑 SSH KEY PATH:", ReadConfig.get_ssh_key())
+# print("🔁 SSH KEY EXISTS:", os.path.exists(ReadConfig.get_ssh_key()))
 
 
 # -------------------- Playwright Fixtures --------------------
@@ -45,7 +45,8 @@ def its_id():
 def setup():
     """Launch browser in full screen and provide page object"""
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--start-maximized"])
+        # browser = p.chromium.launch(headless=True, args=["--start-maximized"])
+        browser = p.chromium.launch(headless=False, args=["--start-maximized"])
         context = browser.new_context(no_viewport=True)  # Full HD window
         page = context.new_page()
         page.evaluate("""

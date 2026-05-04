@@ -17,7 +17,7 @@ class CataloguePage:
     def click_catalogue_menu(self):
         self.page.locator(xpath_catalogue_menu).click()
 
-    def get_total_trophies_counts_catalogue(self, elaam_prod):
+    def get_total_trophies_counts_catalogue(self, elaam_prod, its_id):
         """Fetch trophy counts from two locators and return as separate variables."""
 
         def get_number(loc):
@@ -30,8 +30,7 @@ class CataloguePage:
         trophies_redeemed_count_from_ui = get_number(xpath_trophies_redeemed)
         trophies_balance_count_from_ui = get_number(xpath_trophy_balance)
         print(f"Total count on ui: {total_trophy_count_from_ui}, redeemed count of ui: {trophies_redeemed_count_from_ui}, balance count: {trophies_balance_count_from_ui}")
-        total_trophy_count_query = "mumin_trophies_count"
-        headers, result = elaam_prod(total_trophy_count_query)
+        headers, result = elaam_prod("mumin_trophies_count", its_id, its_id)
         db_table_format = tabulate(result, headers=headers, tablefmt="grid")
         print("Trophies count : ",db_table_format)
         total_trophy_count_from_db = result[0][headers.index("total_awarded")]

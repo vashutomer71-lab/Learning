@@ -1,42 +1,43 @@
-2025-12-23 15:06:15 - INFO -******Click on the Catalogue left panel menu****
-2025-12-23 15:06:53 - INFO -******Click on the Dashboard menu****
-2025-12-23 15:07:27 - INFO -****Expected  total niyats count  in db: 98, but got on widget: 98, but got from api:98*****
-2025-12-23 15:07:27 - INFO -****Expected active niyat count in bd: 39, but got on widget: 39, but got from API : 39*****
-2025-12-23 15:07:27 - INFO -****Expected approval pending niyat count in db: 8, but got on widget: 8, but got from api is8*****
-2025-12-23 15:07:27 - INFO -****Expected completed niyat count: 51, but got on widget: 51, but got from api is: 51*****
-2025-12-23 15:07:27 - INFO -****Expected total niyat count in db: 98, but got total niyat count after adding all status: 98*****
-2025-12-23 15:07:27 - INFO -****Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
-2025-12-23 15:07:32 - INFO -****Expected  total niyats count  in db '0', but got on widget '0', but got from api: 0*****
-2025-12-23 15:07:32 - INFO -****Expected active niyat count in bd 0, but got on widget 0, but got from api: 0*****
-2025-12-23 15:07:32 - INFO -****Expected approval pending niyat count in db 0, but got on widget ' 0, but got from api: 0*****
-2025-12-23 15:07:32 - INFO -****Expected completed niyat count 0, but got on widget 0, but got from api: 0*****
-2025-12-23 15:07:32 - INFO -****Expected total niyat count in db 0, but got total niyat count after adding all status from api: 0*****
-2025-12-23 15:07:32 - INFO -*****Verify all widget count for 1 month filter successfully.******
-2025-12-23 15:07:37 - INFO -***Expected  total niyats count  in db '0', but got on widget '0', but got from api: '0'*****
-2025-12-23 15:07:37 - INFO -***Expected active niyat count in bd 0, but got on widget 0, but got from api: '0'*****
-2025-12-23 15:07:37 - INFO -***Expected approval pending niyat count in db 0, but got on widget ' 0,but got from api: '0'*****
-2025-12-23 15:07:37 - INFO -***Expected completed niyat count 0, but got on widget 0, but got from api: '0'*****
-2025-12-23 15:07:37 - INFO -***Expected total niyat count in db 0, but got total niyat count after adding all status count form api: 0*****
-2025-12-23 15:07:37 - INFO -*****Verify all widget count for 3 month filter successfully.******
-2025-12-23 15:07:54 - INFO -******Expected  total niyats count  in db: '1, but got on widget: 1, but got from API: 1********
-2025-12-23 15:07:54 - INFO -*****Expected active niyat count in bd: 0, but got on widget: 0, but got from API: 0********
-2025-12-23 15:07:54 - INFO -***Expected approval pending niyat count in db: 0, but got on widget : 0, but got from API: 0********
-2025-12-23 15:07:54 - INFO -*****Expected completed niyat count: 1, but got on widget: 1, but got from API: 1********
-2025-12-23 15:07:54 - INFO -***********Expected total niyat count in db: 1, but got total niyat count after adding all status from API: 1********
-2025-12-23 15:07:54 - INFO -*****Verify all widget count for 6 months filter successfully.******
-2025-12-23 15:08:01 - INFO -********Expected  total niyats count  in db: '1', but got on widget : 1, but got from API: 1*********
-2025-12-23 15:08:01 - INFO -******Expected active niyat count in bd: 0, but got on widget: 0, but got from API: 0****
-2025-12-23 15:08:01 - INFO -*****Expected approval pending niyat count in db : 0, but got on widget : 0, but got from API: 0*****
-2025-12-23 15:08:01 - INFO -********Expected completed niyat count: 1, but got on widget: 1, but got from API: 1***********
-2025-12-23 15:08:01 - INFO -********Expected total niyat count in db: 1, but got total niyat count after adding all status from API: 1'**********
-2025-12-23 15:08:01 - INFO -*****Verify all widget count for 1 year filter successfully.******
-2025-12-23 15:08:03 - INFO -Expected total trophy count form db:2459 but got form UI 2459, but got from api 2459
-2025-12-23 15:08:03 - INFO -******The total trophy count are matched with DB count, APi count *******
-2025-12-23 15:08:05 - INFO -********Expected total trophies redeemed count form db:87 but got form UI 87, but got form api:87******
-2025-12-23 15:08:05 - INFO -******The total trophies redeemed count are matched with DB count*******
-2025-12-23 15:08:05 - INFO -*****Expected path: /catalogue, current path:  https://qa-elaam.demoapplication.net/catalogue******
-2025-12-23 15:08:05 - INFO -******The redeemed Now button is clicked successfully and the user is redirected to the catalogue page*******
-2025-12-23 15:08:06 - INFO -******widget count: 98, pagination count:98, total niyat count form niyat list api is: 98**********
-2025-12-23 15:08:06 - INFO -**** Total Niyat widget count are matched with pagination count**
-2025-12-23 15:08:15 - INFO -******DB count: 9, UI count 9, and api count 9**********
-2025-12-23 15:08:15 - INFO -********Search is working fine*******
+2025-12-29 17:56:51 - INFO -******Click on the Catalogue left panel menu****
+2025-12-29 17:56:56 - INFO -Expected total trophy count form db: 2459 but got form UI: 2459
+2025-12-29 17:56:56 - INFO -Expected redeemed trophy count DB: 87, but got form ui : 87
+2025-12-29 17:56:56 - INFO -Expected balance count from DB: 2372, but got on UI: 2372
+2025-12-29 17:56:56 - INFO -******The total, redeemed, balance trophy count are matched with DB count*******
+2025-12-29 17:57:28 - INFO -******Click on the Dashboard menu****
+2025-12-29 17:57:39 - INFO -****Expected  total niyats count  in db: 99, but got on widget: 99, but got from api:99*****
+2025-12-29 17:57:39 - INFO -****Expected active niyat count in bd: 40, but got on widget: 40, but got from API : 40*****
+2025-12-29 17:57:39 - INFO -****Expected approval pending niyat count in db: 8, but got on widget: 8, but got from api is8*****
+2025-12-29 17:57:39 - INFO -****Expected completed niyat count: 51, but got on widget: 51, but got from api is: 51*****
+2025-12-29 17:57:39 - INFO -****Expected total niyat count in db: 99, but got total niyat count after adding all status: 99*****
+2025-12-29 17:57:39 - INFO -****Verify the all widgets count with the database count for the total niyat, active, pending, completed**********
+2025-12-29 17:57:50 - INFO -***Expected  total niyats count  in db '1', but got on widget '1', but got from api: '1'*****
+2025-12-29 17:57:50 - INFO -***Expected active niyat count in bd 1, but got on widget 1, but got from api: '1'*****
+2025-12-29 17:57:50 - INFO -***Expected approval pending niyat count in db 0, but got on widget ' 0,but got from api: '0'*****
+2025-12-29 17:57:50 - INFO -***Expected completed niyat count 0, but got on widget 0, but got from api: '0'*****
+2025-12-29 17:57:50 - INFO -***Expected total niyat count in db 1, but got total niyat count after adding all status count form api: 1*****
+2025-12-29 17:57:50 - INFO -*****Verify all widget count for 3 month filter successfully.******
+2025-12-29 17:57:56 - INFO -******Expected  total niyats count  in db: '2, but got on widget: 2, but got from API: 2********
+2025-12-29 17:57:56 - INFO -*****Expected active niyat count in bd: 1, but got on widget: 1, but got from API: 1********
+2025-12-29 17:57:56 - INFO -***Expected approval pending niyat count in db: 0, but got on widget : 0, but got from API: 0********
+2025-12-29 17:57:56 - INFO -*****Expected completed niyat count: 1, but got on widget: 1, but got from API: 1********
+2025-12-29 17:57:56 - INFO -***********Expected total niyat count in db: 2, but got total niyat count after adding all status from API: 2********
+2025-12-29 17:57:56 - INFO -*****Verify all widget count for 6 months filter successfully.******
+2025-12-29 17:58:03 - INFO -********Expected  total niyats count  in db: '2', but got on widget : 2, but got from API: 2*********
+2025-12-29 17:58:03 - INFO -******Expected active niyat count in bd: 1, but got on widget: 1, but got from API: 1****
+2025-12-29 17:58:03 - INFO -*****Expected approval pending niyat count in db : 0, but got on widget : 0, but got from API: 0*****
+2025-12-29 17:58:03 - INFO -********Expected completed niyat count: 1, but got on widget: 1, but got from API: 1***********
+2025-12-29 17:58:03 - INFO -********Expected total niyat count in db: 2, but got total niyat count after adding all status from API: 2'**********
+2025-12-29 17:58:03 - INFO -*****Verify all widget count for 1 year filter successfully.******
+2025-12-29 17:58:05 - INFO -Expected total trophy count form db:2459 but got form UI 2459, but got from api 2459
+2025-12-29 17:58:05 - INFO -******The total trophy count are matched with DB count, APi count *******
+2025-12-29 17:58:07 - INFO -********Expected total trophies redeemed count form db:87 but got form UI 87, but got form api:87******
+2025-12-29 17:58:07 - INFO -******The total trophies redeemed count are matched with DB count*******
+2025-12-29 17:58:07 - INFO -*****Expected path: /catalogue, current path:  https://qa-elaam.demoapplication.net/catalogue******
+2025-12-29 17:58:07 - INFO -******The redeemed Now button is clicked successfully and the user is redirected to the catalogue page*******
+2025-12-29 17:58:08 - INFO -******widget count: 99, pagination count:99, total niyat count form niyat list api is: 99**********
+2025-12-29 17:58:08 - INFO -**** Total Niyat widget count are matched with pagination count**
+2025-12-29 17:58:17 - INFO -******DB count: 9, UI count 9, and api count 9**********
+2025-12-29 17:58:17 - INFO -********Search is working fine*******
+2025-12-29 17:58:18 - INFO -*****Expected Heading: Mumin Dashboard, but got in actual: Mumin Dashboard 
+2025-12-29 17:58:18 - INFO -******Verify the mumin dashboard heading****
+2025-12-29 17:58:18 - INFO -***click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value****

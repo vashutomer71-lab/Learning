@@ -82,7 +82,7 @@ class MuminDashboardPage:
 
 
     def verify_dashboard_tile_all_filter(self, elaam_prod, its_id):
-        self.page.wait_for_timeout(3000)
+        self.page.wait_for_timeout(2000)
         total_niyat_count_widget = int(next(line for line in self.page.inner_text(xpath_Total_Niyat_tile).splitlines() if line.strip()))
         active_niyat_count_widget = int(next(line for line in self.page.inner_text(xpath_Active_Niyat_tile).splitlines() if line.strip()))
         approval_pending_niyat_count_widget = int(next(line for line in self.page.inner_text(xpath_Approval_pending_Niyat_tile).splitlines() if line.strip()))
@@ -100,14 +100,15 @@ class MuminDashboardPage:
         deactivated_db = result[0][headers.index('deactivated_count')]
         total_niyat_count_add_all_status = active_count_db + completed_count_db + approval_pending_db + deactivated_db
         
-        return total_niyat_count_widget, total_niyat_count_db,active_niyat_count_widget,active_count_db,approval_pending_niyat_count_widget,approval_pending_db,completed_niyat_count_widget,completed_count_db,total_niyat_count_add_all_status,total_niyat_count_db
+        return total_niyat_count_widget, total_niyat_count_db,active_niyat_count_widget,active_count_db,approval_pending_niyat_count_widget,approval_pending_db,completed_niyat_count_widget,completed_count_db,total_niyat_count_add_all_status,total_niyat_count_db 
 
     def click_duration_drop_down_and_select_1_month_filter(self):
         self.page.locator(xpath_duration_dropdown).click()
         self.page.wait_for_selector("body").press("ControlOrMeta+Shift+I")       
         # self.page.get_by_role("option", name="Last 1 Month").click()
         self.page.locator(xpath_1_month).click()
-        self.page.keyboard.press("Escape")
+    #     self.page.keyboard.press("Escape")
+    
 
     def verify_dashboard_tile_1_month_filter(self, elaam_prod, its_id):
         self.page.wait_for_timeout(3000)
@@ -339,7 +340,7 @@ class MuminDashboardPage:
         self.page.locator(xpath_send_button).click()
         success_message= self.page.wait_for_selector(xpath_send_message_success_message).inner_text()
         return success_message
-
+            
     def click_request_for_update(self):
         self.page.locator(xpath_Active_Niyat_tile).click()
         self.page.locator(xpath_view_icon).click()

@@ -12,6 +12,7 @@ expected_text = "Notification Sent Successfully."
 
 @pytest.mark.sanity
 @pytest.mark.regression
+
 class TestMuminDashboard:
 
     logger = LogGen.loggen()
@@ -320,121 +321,121 @@ class TestMuminDashboard:
                                    attachment_type=allure.attachment_type.PNG)
                 raise e
 
-    # @pytest.mark.regression
-    # @pytest.mark.sanity
-    # @allure.feature("Dashboard")
-    # @allure.story("Verify the niyat information page")
-    # @allure.severity(allure.severity_level.CRITICAL)
-    # def test_niyat_information(self,setup,login):
-    #     self.page = login
-    #     self.niyat_info = MuminDashboardPage(self.page)
-    #     niyat_question,niyat_question_information_page =self.niyat_info.test_verify_niyat_question()
-    #     with allure.step("The niyat information page opened and the compare with the niyat question form list"):
-    #         try:
-    #             assert niyat_question== niyat_question_information_page, f"Expected niyat question on info page{niyat_question}, but got {niyat_question_information_page}"
-    #             self.logger.info(f"*********Expected niyat question on info page: {niyat_question}, but got {niyat_question_information_page}******")
-    #             self.logger.info("****niyat question and nitay question on information page are matched****")
-    #         except AssertionError as e:
-    #             self.page.screenshot(path="Screenshots/niyat_information.png")
-    #             allure.attach.file("Screenshots/niyat_information.png", name="Niyat information question is not matched with the list question",
-    #                                attachment_type=allure.attachment_type.PNG)
+    @pytest.mark.regression
+    @pytest.mark.sanity
+    @allure.feature("Dashboard")
+    @allure.story("Verify the niyat information page")
+    @allure.severity(allure.severity_level.CRITICAL)
+    def test_niyat_information(self,setup,login):
+        self.page = login
+        self.niyat_info = MuminDashboardPage(self.page)
+        niyat_question,niyat_question_information_page =self.niyat_info.test_verify_niyat_question()
+        with allure.step("The niyat information page opened and the compare with the niyat question form list"):
+            try:
+                assert niyat_question== niyat_question_information_page, f"Expected niyat question on info page{niyat_question}, but got {niyat_question_information_page}"
+                self.logger.info(f"*********Expected niyat question on info page: {niyat_question}, but got {niyat_question_information_page}******")
+                self.logger.info("****niyat question and nitay question on information page are matched****")
+            except AssertionError as e:
+                self.page.screenshot(path="Screenshots/niyat_information.png")
+                allure.attach.file("Screenshots/niyat_information.png", name="Niyat information question is not matched with the list question",
+                                   attachment_type=allure.attachment_type.PNG)
 
-    # @pytest.mark.regression
-    # @pytest.mark.sanity
-    # @allure.feature("Dashboard")
-    # @allure.story("Back button functionality on niyat information page")
-    # @allure.severity(allure.severity_level.CRITICAL)
-    # def test_click_back_button_niyat_information_page_navigation_mumin_dashboard_page(self,setup,login):
-    #     self.page = login
-    #     self.niyat_back_button = MuminDashboardPage(self.page)
-    #     self.niyat_back_button.click_back_button_niyat_information_page_navigation_mumin_dashboard_page()
-    #     dashboard_text_frontend =self.niyat_back_button.verify_mumin_dashboard_heading()
-    #     with allure.step("Verify the user is redirected to the mumin dashboard after click on the back button"):
-    #         try:
-    #             assert dashboard_text_frontend == expected,f"Test failed: Expected '{expected}', but the actual text was '{dashboard_text_frontend}'."
-    #             self.logger.info(f"*****Expected Heading: {expected}, but got in actual: {dashboard_text_frontend} ")
-    #             self.logger.info("******Verify the mumin dashboard heading****")
-    #         except AssertionError as e:
-    #             self.page.screenshot(path="Screenshots/back_button_niyat_information.png")
-    #             allure.attach.file("Screenshots/back_button_niyat_information.png",
-    #                                name="back button functionality on Niyat information is not working and screenshot capture",
-    #                                attachment_type=allure.attachment_type.PNG)
+    @pytest.mark.regression
+    @pytest.mark.sanity
+    @allure.feature("Dashboard")
+    @allure.story("Back button functionality on niyat information page")
+    @allure.severity(allure.severity_level.CRITICAL)
+    def test_click_back_button_niyat_information_page_navigation_mumin_dashboard_page(self,setup,login):
+        self.page = login
+        self.niyat_back_button = MuminDashboardPage(self.page)
+        self.niyat_back_button.click_back_button_niyat_information_page_navigation_mumin_dashboard_page()
+        dashboard_text_frontend =self.niyat_back_button.verify_mumin_dashboard_heading()
+        with allure.step("Verify the user is redirected to the mumin dashboard after click on the back button"):
+            try:
+                assert dashboard_text_frontend == expected,f"Test failed: Expected '{expected}', but the actual text was '{dashboard_text_frontend}'."
+                self.logger.info(f"*****Expected Heading: {expected}, but got in actual: {dashboard_text_frontend} ")
+                self.logger.info("******Verify the mumin dashboard heading****")
+            except AssertionError as e:
+                self.page.screenshot(path="Screenshots/back_button_niyat_information.png")
+                allure.attach.file("Screenshots/back_button_niyat_information.png",
+                                   name="back button functionality on Niyat information is not working and screenshot capture",
+                                   attachment_type=allure.attachment_type.PNG)
 
-    # @pytest.mark.regression
-    # @allure.title("Dashboard")
-    # @allure.description("The item per page and pagination and row count matched")
-    # def test_click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value(self,setup,login):
-    #     self.page= login
-    #     self.item_per_page = MuminDashboardPage(self.page)
-    #     try:
-    #         total_count_pagination, row_count, random_value= self.item_per_page.click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value()
-    #         self.logger.info("***click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value****")
-    #         assert total_count_pagination == row_count, f" rows count displayed: {row_count},and pagination count : {total_count_pagination}"
-    #         self.logger.info(f"***The item per page count:{random_value} and pagination count : {total_count_pagination}, matched with row count is displayed: {row_count}***")
-    #     except AssertionError as e:
-    #         self.page.screenshot(path="Screenshots/item_per_page_pagination_count.png")
-    # #         allure.attach.file("Screenshots/item_per_page_pagination_count.png", name="item per page and pagination count", attachment_type=allure.attachment_type.PNG)
-
-
-    # ##-------IT is not working till now need to complete this because the send messgae page going blank----------####
-    # @pytest.mark.regression
-    # @pytest.mark.sanity
-    # @allure.title("Send Message")
-    # @allure.description("Verify the send message functionality is working")
-    # def test_send_message_functionality(self,setup,login):
-    #     self.page=login
-    #     self.send_message = MuminDashboardPage(self.page)
-    #     success_message = self.send_message.send_message_functionality()
-    #     try:
-    #         assert success_message.strip() == expected_text, f"Expected : {expected_text}, but got: {success_message}"
-    #         self.logger.info(f"******The success message : {success_message} and the expected text: {expected_text}*****")
-    #     except AssertionError as e:
-    #         self.page.screenshot(path="Screenshots/send_message.png")
-    #         allure.attach(success_message, name="Success Message", attachment_type=allure.attachment_type.TEXT)
-
-    #     ## below test case is in-progress
-    # def test_request_for_update(self,setup,login):
-    #     self.page = login
-    #     self.req_update = MuminDashboardPage(self.page)
-    #     self.req_update.request_for_update()
+    @pytest.mark.regression
+    @allure.title("Dashboard")
+    @allure.description("The item per page and pagination and row count matched")
+    def test_click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value(self,setup,login):
+        self.page= login
+        self.item_per_page = MuminDashboardPage(self.page)
+        try:
+            total_count_pagination, row_count, random_value= self.item_per_page.click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value()
+            self.logger.info("***click_item_per_page_drop_down_and_compare_data_with_rows_and_select_value****")
+            assert total_count_pagination == row_count, f" rows count displayed: {row_count},and pagination count : {total_count_pagination}"
+            self.logger.info(f"***The item per page count:{random_value} and pagination count : {total_count_pagination}, matched with row count is displayed: {row_count}***")
+        except AssertionError as e:
+            self.page.screenshot(path="Screenshots/item_per_page_pagination_count.png")
+    #         allure.attach.file("Screenshots/item_per_page_pagination_count.png", name="item per page and pagination count", attachment_type=allure.attachment_type.PNG)
 
 
-    # @pytest.mark.regression
-    # @pytest.mark.sanity
-    # @allure.title("Request For Update Functionality")
-    # @allure.description("Verify that after clicking 'Request For Update', either Mubarak with trophy is displayed or request goes to Pending state.")
-    # def test_request_for_update(self, setup, login):
-    #     expect_success_message = "Niyat Details Has Been Update."
-    #     self.page = login
-    #     self.request_update = MuminDashboardPage(self.page)
-    #     # Step 1: Click on button
-    #     success_message_request_for_update =self.request_update.click_request_for_update()
-    #     assert success_message_request_for_update == expect_success_message, f"Expected message : {expect_success_message}, but get success message: {success_message_request_for_update}"
-    #     self.logger.info(f"********Expected message : {expect_success_message}, but get success message: {success_message_request_for_update}*******")
+    ##-------IT is not working till now need to complete this because the send messgae page going blank----------####
+    @pytest.mark.regression
+    @pytest.mark.sanity
+    @allure.title("Send Message")
+    @allure.description("Verify the send message functionality is working")
+    def test_send_message_functionality(self,setup,login):
+        self.page=login
+        self.send_message = MuminDashboardPage(self.page)
+        success_message = self.send_message.send_message_functionality()
+        try:
+            assert success_message.strip() == expected_text, f"Expected : {expected_text}, but got: {success_message}"
+            self.logger.info(f"******The success message : {success_message} and the expected text: {expected_text}*****")
+        except AssertionError as e:
+            self.page.screenshot(path="Screenshots/send_message.png")
+            allure.attach(success_message, name="Success Message", attachment_type=allure.attachment_type.TEXT)
+
+        ## below test case is in-progress
+    def test_request_for_update(self,setup,login):
+        self.page = login
+        self.req_update = MuminDashboardPage(self.page)
+        self.req_update.request_for_update()
+
+
+    @pytest.mark.regression
+    @pytest.mark.sanity
+    @allure.title("Request For Update Functionality")
+    @allure.description("Verify that after clicking 'Request For Update', either Mubarak with trophy is displayed or request goes to Pending state.")
+    def test_request_for_update(self, setup, login):
+        expect_success_message = "Niyat Details Has Been Update."
+        self.page = login
+        self.request_update = MuminDashboardPage(self.page)
+        # Step 1: Click on button
+        success_message_request_for_update =self.request_update.click_request_for_update()
+        assert success_message_request_for_update == expect_success_message, f"Expected message : {expect_success_message}, but get success message: {success_message_request_for_update}"
+        self.logger.info(f"********Expected message : {expect_success_message}, but get success message: {success_message_request_for_update}*******")
 
 
 
-    #     # Step 2: Get actual outcome
-    #     actual_outcome = self.request_update.get_outcome_message()
-    #     print("Actual out come:", actual_outcome)
+        # Step 2: Get actual outcome
+        actual_outcome = self.request_update.get_outcome_message()
+        print("Actual out come:", actual_outcome)
 
-    #     # Step 3: Validate outcomes
-    #     expected_outcomes = ["MUBARAK", "PENDING"]
+        # Step 3: Validate outcomes
+        expected_outcomes = ["MUBARAK", "PENDING"]
 
-    #     try:
-    #         expected_outcomes = ["MUBARAK", "PENDING"]
-    #         assert actual_outcome in expected_outcomes, f"Expected {expected_outcomes}, but got: {actual_outcome}"
-    #         self.logger.info(f"****** Test Passed with outcome: {actual_outcome} *****")
-    #     except AssertionError as e:
-    #         # Screenshot on failure
-    #         screenshot_path = "Screenshots/request_for_update.png"
-    #         self.page.screenshot(path=screenshot_path)
+        try:
+            expected_outcomes = ["MUBARAK", "PENDING"]
+            assert actual_outcome in expected_outcomes, f"Expected {expected_outcomes}, but got: {actual_outcome}"
+            self.logger.info(f"****** Test Passed with outcome: {actual_outcome} *****")
+        except AssertionError as e:
+            # Screenshot on failure
+            screenshot_path = "Screenshots/request_for_update.png"
+            self.page.screenshot(path=screenshot_path)
 
-    #         # Attach evidence to Allure report
-    #         allure.attach.file(screenshot_path, name="Failure Screenshot", attachment_type=allure.attachment_type.PNG)
-    #         allure.attach(actual_outcome, name="Actual Outcome", attachment_type=allure.attachment_type.TEXT)
+            # Attach evidence to Allure report
+            allure.attach.file(screenshot_path, name="Failure Screenshot", attachment_type=allure.attachment_type.PNG)
+            allure.attach(actual_outcome, name="Actual Outcome", attachment_type=allure.attachment_type.TEXT)
 
-    #         raise e
+            raise e
 
 
 

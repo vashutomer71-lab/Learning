@@ -24,9 +24,9 @@ before_script:
   - playwright install --with-deps
   - mkdir -p reports
 
-  # Save SSH private key passed from GitLab CI env
-  - echo "$SSH_PKEY" > /tmp/ci_ssh_key.pem
-  - chmod 600 /tmp/ci_ssh_key.pem
+   # 🔥 Convert SSH_PKEY variable into usable .pem file
+  - echo "$SSH_PKEY" > /tmp/ci_ssh.pem
+  - chmod 600 /tmp/ci_ssh.pem
 
   # - echo "$SSH_PKEY" > /tmp/ci_ssh.pem
   # - chmod 600 /tmp/ci_ssh.pem
